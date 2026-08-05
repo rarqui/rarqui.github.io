@@ -1,0 +1,99 @@
+
+/*
+    +- ly-container-document -----------------------------------------+
+    |                                                                 |
+    |  +- ly-grid-2c ----------------------------------------------+  |
+    |  |                                                           |  |
+    |  |  +- ly-grid-box ----------+   +- ly-grid-box ----------+  |  |
+    |  |  |  ts-label              |   |  ts-label              |  |  |
+    |  |  |  ts-label-underline    |   |  ts-label-underline    |  |  |
+    |  |  |                        |   |                        |  |  |
+    |  |  +--------------«----------+   +------------------------+  |  |
+    |  |  +- ly-grid-box ----------+   +- ly-grid-box ----------+  |  |
+    |  |  |  ts-text-main          |   |  ts-text-aux           |  |  |
+    |  |  |                        |   |                        |  |  |
+    |  |  +------------------------+   +------------------------+  |  |
+    |  |                                                           |  |
+    |  |      +- ly-grid-one-column ---------------------+         |  |
+    |  |      |  ts-apparatus                            |         |  |
+    |  |      |                                          |         |  |
+    |  |      |  +- nota-item ------------------------+  |         |  |
+    |  |      |  |                                    |  |         |  |
+    |  |      |  |  ts-label                          |  |         |  |
+    |  |      |  |                                    |  |         |  |
+    |  |      |  |  tag-comment                       |  |         |  |
+    |  |      |  |                                    |  |         |  |
+    |  |      |  +------------------------------------+  |         |  |
+    |  |      |                                          |         |  |
+    |  |      +------------------------------------------+         |  |
+    |  |                                                           |  |
+    |  +-----------------------------------------------------------+  |
+    |                                                                 |
+    +-----------------------------------------------------------------+
+
+    |  +- ly-grid-3c ----------------------------------------------+  |
+    |  |                                                           |  |
+    |  |  +- ly-grid-box -+  +- ly-grid-box -+  +- ly-grid-box -+  |  |
+    |  |  |               |  |               |  |               |  |  |
+    |  |  |               |  |               |  |               |  |  |
+    |  |  +---------------+  +---------------+  +---------------+  |  |
+    |  |                                                           |  |
+    |  +-----------------------------------------------------------+  |
+    |                                              |
+    +----------------------------------------------+
+
+    
+    
+    
+    <div class="ly-container-document">    
+    
+        
+        <div class="ly-grid-2c">    
+    
+        </div> <!--  class="class="ly-grid-2c" -->    
+    
+    
+    
+    </div> <!--  class="ly-container-document" -->    
+    
+ */
+
+    .ly-container-document{
+        max-width               : 1100px;
+        margin                  : 0 auto;
+        margin-top              : 5px;
+        border                  : 2px solid rgba(0,0,0,0.05);
+        padding                 : 40px;
+        box-shadow              : 0 0 130px rgba(0,0,0,0.10);
+    }
+
+    .ly-grid-2c {
+        display                 : grid;
+        grid-template-columns   : 1fr 1fr;
+        column-gap              : 60px;
+     }
+
+    .ly-grid-box {
+        margin-top              : .7em;
+        margin-bottom           : .7em;
+    }
+
+    
+    
+    .ly-grid-one-column{
+        grid-column             : 1 / span 2;
+/*         margin                  : 5px 10% 10px 5%; */
+        margin                  : 5px 1rem 1rem 5%;       
+        
+        padding                 : 0px 1rem;
+    }
+
+    .ly-grid-3c {
+        display                 : grid;
+        grid-template-columns   : 1fr 1fr 1fr;
+        column-gap              : 10px;
+        font-size               : .80rem;
+    }
+
+/*  */
+    

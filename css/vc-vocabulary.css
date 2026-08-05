@@ -11,7 +11,7 @@
 
         <hr> <!-- CARD -->        
     
-        <!-- ENTRY -->            
+        <!-- LEMA -->
         <div class="vc-entry">
             <span class="vc-lema" id=""></span>
             <span class="vc-morphosintaxis"></span>
@@ -21,21 +21,24 @@
         <div class="vc-expresion" id="">
         </div> <!-- class="vc-expresion" -->
 
-        <!-- MORFOLOGIA -->                
-        <div class="vc-morfology"></div>
-        
-        
+        <!-- INFO -->
+        <div class="vc-info">
+        </div> <!--v class="vc-info" -->
+
+        <!-- MORFOLOGIA -->
+        <div class="vc-morfology"><span class="ts-latin"></span></div>
+
         <!-- ETIMOLOGÍA -->                
         <div class="vc-etimology"></div>
         
         <!-- USO -->                
         <div class="vc-use">
-            <span class="ts-latin"></span><span class="ts-sup"></span>&nbsp—
+            <span class="ts-latin"></span><span class="ts-sup"><b>(&alpha;)</b></span>&nbsp;—
         </div> <!--v class="vc-use" -->
 
         <!-- DEFINICIÓN ÚNICA-->        
         <div class="vc-single-definition">
-            <span class="ts-latin"><span class="ts-sup"></span></span>
+            <span class="ts-latin"><span class="ts-sup"><b>(&alpha;)</b></span></span>
             <span class="ts-author"></span>
         </div> <!-- class="vc-single-definition" -->
 
@@ -43,7 +46,7 @@
         <div class="vc-multiple-definitions">
             <ul class="vc-multiple-definitions-ul">
                 <li>
-                    <span class="ts-latin"><span class="ts-sup"></span></span>
+                    <span class="ts-latin"><span class="ts-sup"><b>(&alpha;)</b></span></span>
                     <span class="ts-author"></span>
                 </li>
             </ul>
@@ -54,24 +57,25 @@
             En las fuentes:
             <ul class="vc-examples-ul">
                 <li>
-                    <span class="ts-latin"></span><span class="ts-sup"></span>
+                    <span class="ts-latin"></span><span class="ts-sup"><b>(&alpha;)</b></span>
                     <span class="ts-author"></span>                     
                 </li>
             </ul>
         </div> <!-- class="vc-examples" -->
 
-        <!-- EJEMPLOS DE LAS SAGRADAS ESCRITURAS-->        
+        <!-- EJEMPLOS DE LAS SAGRADAS ESCRITURAS-->
         <div class="vc-examples">
             En las Sagradas Escrituras:
             <ul class="vc-examples-ul">
                 <li>
-                    <span class="ts-latin"></span><span class="ts-sup"></span>
-                    <span class="ts-author">&nbsp</span>                     
+                    <span class="ts-latin">
+                        <span class="ts-latin-emph"></span>
+                    <span class="ts-sup"><b>(&alpha;)</b></span>
+                    <span class="ts-author">&nbsp;</span>
                 </li>
             </ul>
         </div> <!-- class="vc-examples" -->
-        
-        
+
         <!-- NOTA ÚNICA -->
         <div class="vc-single-note">
              <span class="ts-latin"></span>
@@ -84,12 +88,11 @@
                 <li>
                     <span class="ts-latin"></span>
                     <span class="ts-english"></span>
-                    <span class="ts-japanese"><i>文言文</i></span>:
                     <span class="ts-japanese"><ruby><rt></rt></ruby></span>
+                    <span class="ts-japanese"><i>文言文</i></span>
                 </li>
             </ul>
         </div> <!-- class="vc-multiple-notes" -->
-        
         
         <!-- TRADUCCIONES -->
         <div class="vc-translations">
@@ -135,6 +138,11 @@
         margin              : 0;
     }
 
+
+    /* INFO  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+
     .vc-lema{
 /*         font-family         : var(--font-latin); */
         font-family         : "Cinzel", serif;
@@ -166,7 +174,24 @@
         font-size           : 1.80rem;/*124%;*/
         color               : var(--ancient-red)
     }
-    
+
+
+/* INFO - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+    .vc-info{
+        margin-top          : var(--vc-margin-top);
+        margin-bottom       : var(--vc-margin-bottom);
+        margin-left         : 3em;
+        margin-right        : 3em;
+    }
+
+    .vc-info::first-letter {
+        font-weight         : bold;
+        color               : var(--ancient-red)
+    }
+
+/* ETIMOLOGY  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
     .vc-etimology{
         margin-top          : var(--vc-margin-top);
         margin-bottom       : var(--vc-margin-bottom);
@@ -349,7 +374,7 @@
     .vc-translations-ol{
         margin-top          : .0rem;
         margin-bottom       : .0rem;
-        list-style-type     : decimal;
+        list-style-type     : lower-greek;
     }
     
     
@@ -368,3 +393,10 @@
          list-style-type    : disc; /*circle, square, none */
     }
     
+    
+/* NOTAS GENERALES  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */    
+
+    .gn-general-notes{
+        margin-top:    1rem;//var(--vc-margin-top);
+        margin-bottom: 1rem;var(--vc-margin-bottom);
+    }    
