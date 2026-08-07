@@ -27,4 +27,13 @@
     }
 
 
+/* Malvinas sans, regular      */
+
+    @font-face {
+        font-family : "Malvinas";
+        src         : url("../fonts/MalvinasSans-Regular.woff2") format("woff2");
+        font-weight : 400;
+        font-style  : regular;
+    }
+
 
