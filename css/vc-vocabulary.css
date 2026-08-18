@@ -14,7 +14,10 @@
         <!-- LEMA -->
         <div class="vc-entry">
             <span class="vc-lema" id=""></span>
-            <span class="vc-morphosintaxis"></span>
+                <span style="color:rgb(0,0,128);">&#10003;</span>
+            </span>
+            <span class="vc-morphosintaxis">
+            </span>
         </div> <!-- class="vc-entry" -->
 
         <!-- EXPRESIÓN -->            
@@ -38,16 +41,24 @@
 
         <!-- DEFINICIÓN ÚNICA-->        
         <div class="vc-single-definition">
-            <span class="ts-latin"><span class="ts-sup"><b>(&alpha;)</b></span></span>
-            <span class="ts-author"></span>
+            <span class="ts-latin">
+                <span class="ts-sup"><b>(&alpha;)</b></span>
+                <span class="ts-latin-emph"></span>
+            </span>
+            <span class="ts-author">
+            </span>
         </div> <!-- class="vc-single-definition" -->
 
-        <!-- DEFINICIONES MÚLTIPLES -->        
+        <!-- DEFINICIONES MÚLTIPLES -->
         <div class="vc-multiple-definitions">
             <ul class="vc-multiple-definitions-ul">
                 <li>
-                    <span class="ts-latin"><span class="ts-sup"><b>(&alpha;)</b></span></span>
-                    <span class="ts-author"></span>
+                    <span class="ts-latin">
+                        <span class="ts-sup"><b>(&alpha;)</b></span>
+                        <span class="ts-latin-emph"></span>
+                    </span>
+                    <span class="ts-author">
+                    </span>
                 </li>
             </ul>
         </div> <!-- class="vc-multiple-definitions" -->
@@ -69,7 +80,6 @@
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        <span class="ts-latin-emph"></span>
                     <span class="ts-sup"><b>(&alpha;)</b></span>
                     <span class="ts-author">&nbsp;</span>
                 </li>
@@ -144,7 +154,6 @@
 
 
     .vc-lema{
-/*         font-family         : var(--font-latin); */
         font-family         : "Cinzel", serif;
         font-weight         : 400;
         font-variant        : small-caps;
@@ -397,6 +406,9 @@
 /* NOTAS GENERALES  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */    
 
     .gn-general-notes{
-        margin-top:    1rem;//var(--vc-margin-top);
-        margin-bottom: 1rem;var(--vc-margin-bottom);
+        margin-top:    1rem;
+        margin-bottom: 1rem;
     }    
+
+
+&#x2713

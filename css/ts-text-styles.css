@@ -3,152 +3,157 @@
 
 
     .ts-text-main { 
-        font-family : var(--font-latin);
-        font-style: italic;
-        font-size: 1.28rem;
-        font-weight: 400;
-        text-align: justify;
-        color: #000;
+        font-family     : var(--font-latin);
+        font-style      : italic;
+        font-size       : 1.28rem;
+        font-weight     : 400;
+        text-align      : justify;
+        color           : #000;
     }
 
 
     .ts-text-aux{
-/*         font-family : var(--font-latin); */
-        font-style: normal;
-        font-size: 1.25rem;
-        text-align: justify;
-        color: #444; 
+        font-style      : normal;
+        font-size       : 1.25rem;
+        text-align      : justify;
+        color           : #444;
     }    
 
     .ts-apparatus {
         background-color: rgba(255, 255, 255, 0.4);
-        border-left: 2px solid var(--accent-red);
-        font-size: 1.1rem;
+        border-left     : 2px solid var(--accent-red);
+        font-size       : 1.1rem;
     }
 
     .ts-sc-centered-label {
-/*        font-variant: small-caps; */
-        font-family: var(--font-title);
-        font-weight: bold;
-        text-align: center; 
-        color: var(--accent-red);
+/*      font-variant: small-caps; */
+        font-family     : var(--font-title);
+        font-weight     : bold;
+        text-align      : center;
+        color           : var(--accent-red);
     }    
 
     .ts-sc-label {
-        font-weight: bold;
-        color: var(--accent-red);
-        font-variant: small-caps;
+        font-weight     : bold;
+        color           : var(--accent-red);
+        font-variant    : small-caps;
     }
     
     
     .label-version-c {
-        font-weight: bold;
-        text-align: center;
-        color: var(--accent-red);
-        font-variant: small-caps;
-        letter-spacing: 1.5px;
+        font-weight     : bold;
+        text-align      : center;
+        color           : var(--accent-red);
+        font-variant    : small-caps;
+        letter-spacing  : 1.5px;
     }
     
     .ts-label-underline{
-        letter-spacing: 1.5px;
-        padding-bottom: 20px;
-        border-bottom: 1px double var(--accent-red);
-        margin-bottom: 30px;
+        letter-spacing  : 1.5px;
+        padding-bottom  : 20px;
+        border-bottom   : 1px double var(--accent-red);
+        margin-bottom   : 30px;
     }        
     
     
    .ts-nsentence{
-        font-weight: bold;
-        font-size: 0.7rem;
-        margin-right: 0.1rem;        
-        margin-left:  0rem;
-        color: #888;
+        font-weight     : bold;
+        font-size       : 0.7rem;
+        margin-right    : 0.1rem;
+        margin-left     :  0rem;
+        color           : #888;
    }
     
     .ts-nverse {
-        color: var(--accent-red);
-        font-weight: bold;
-        font-size: 0.9rem;
-        margin-right: .5rem;
+        color           : var(--accent-red);
+        font-weight     : bold;
+        font-size       : 0.9rem;
+        margin-right    : .5rem;
     }
     
     .ts-spanish {
-        font-style: normal;
+        font-style      : normal;
     }
 
     .ts-latin {
-        font-family : var(--font-latin);
-        font-variant-ligatures: discretionary-ligatures;
-        -webkit-font-variant-ligatures: common-ligatures;
-        letter-spacing : .05rem; 
-        font-weight : 500;
-        font-size: 105%; 
-        font-style: italic;
-        color: #2c2c2c;
+        font-family     : var(--font-latin);
+        font-variant-ligatures
+                        : discretionary-ligatures;
+        -webkit-font-variant-ligatures
+                        : common-ligatures;
+        letter-spacing  : .05rem;
+        font-weight     : 500;
+        font-size       : 105%;
+        font-style      : italic;
+        color           : #2c2c2c;
     }
     
     .ts-latin-emph {
-        font-style: normal;
+        font-style      : normal;
     }    
     
 
     .ts-english {
-        font-family: var(--font-main);
-        font-weight : 400;
-        font-style: italic;
+        font-family     : 'Anaktoria';   /* var(--font-main); */
+        font-variant-ligatures
+                        : discretionary-ligatures;
+        -webkit-font-variant-ligatures
+                        : common-ligatures;
+        font-weight     : 400;
+/*      font-style      : italic; */
     }
 
     .ts-japanese {
-        font-family: "Shippori Mincho", serif;
-        font-weight : 500;
-        font-size   : 1.2rem;
+        font-family     : "Shippori Mincho", serif;
+        font-weight     : 500;
+        font-size       : 1.2rem;
     }
     
     .ts-wenyanwen {
-        font-family: "DFKai-SB", "Cactus Classical Serif", "Noto Sans TC", serif;
-        font-weight : 400;
-        font-size   : 1.2rem;
+        font-family     : "DFKai-SB", "Cactus Classical Serif", "Noto Sans TC", serif;
+        font-weight     : 400;
+        font-size       : 1.2rem;
     }
 
     
     .ts-phonetic {
-        font-family: monospace;
-        font-style: normal;
+        font-family     : monospace;
+        font-style      : normal;
     }
     
     
     .ts-author{
-        font-weight         : 550;
-        font-size t         : 1.2rem;
-        color               : var(--black-1);
+        font-weight     : 550;
+        font-size t     : 1.2rem;
+        color           : var(--black-1);
         
     }    
     
     .ts-sup{
-        vertical-align      : 0.3rem; /* <span class="vocabulary-sup">super;*/
-        margin-left         : 0.2rem;
-        font-size           : 0.75rem;
-        font-style          : normal;
+        vertical-align  : 0.3rem; /* <span class="vocabulary-sup">super;*/
+        margin-left     : 0.2rem;
+        font-size       : 0.75rem;
+        font-style      : normal;
     }
     
     
     .ts-capital{
-        float               : left;
-        font-family         : 'Georgia', serif;
-        font-size           : 2rem;
-        line-height         : 1rem;
-        padding-top         : .0rem;
-        padding-right       : 1rem;
-        padding-left        : 1rem;
-        color               : var(--ancient-red);
+        float           : left;
+        font-family     : 'Georgia', serif;
+        font-size       : 2rem;
+        line-height     : 1rem;
+        padding-top     : .0rem;
+        padding-right   : 1rem;
+        padding-left    : 1rem;
+        color           : var(--ancient-red);
     }
     
     
     .ts-section-title{
-        text-align          : center;
-        font-family         : var(--font-title);
-        font-weight         : 700;
-        letter-spacing      : .07rem; 
+        text-align      : center;
+        font-family     : var(--font-title);
+        font-weight     : 700;
+        letter-spacing  : .07rem;
     }
 
     
