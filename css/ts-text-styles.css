@@ -103,6 +103,15 @@
 /*      font-style      : italic; */
     }
 
+    .ts-greek {
+        font-family     : 'Anaktoria';
+        font-variant-ligatures
+                        : discretionary-ligatures;
+        -webkit-font-variant-ligatures
+                        : common-ligatures;
+        font-weight     : 400;
+    }
+
     .ts-japanese {
         font-family     : "Shippori Mincho", serif;
         font-weight     : 500;

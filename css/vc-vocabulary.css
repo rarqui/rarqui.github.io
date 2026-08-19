@@ -68,7 +68,8 @@
             En las fuentes:
             <ul class="vc-examples-ul">
                 <li>
-                    <span class="ts-latin"></span><span class="ts-sup"><b>(&alpha;)</b></span>
+                    <span class="ts-latin"></span>
+                    <span class="ts-sup"><b>(&alpha;)</b></span>
                     <span class="ts-author"></span>                     
                 </li>
             </ul>
@@ -76,12 +77,15 @@
 
         <!-- EJEMPLOS DE LAS SAGRADAS ESCRITURAS-->
         <div class="vc-examples">
-            En las Sagradas Escrituras:
+            En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                    <span class="ts-sup"><b>(&alpha;)</b></span>
-                    <span class="ts-author">&nbsp;</span>
+                        <span class="ts-sup"><b>(&alpha;)</b></span>
+                    </span>
+                    <span class="ts-author">
+                        &nbsp;
+                    </span>
                 </li>
             </ul>
         </div> <!-- class="vc-examples" -->
@@ -103,10 +107,21 @@
                 </li>
             </ul>
         </div> <!-- class="vc-multiple-notes" -->
-        
+
+
+
+        <!-- NOTAS GENERALES -->
+        <div class="vc-general-notes">
+            <ol class="vc-general-notes-ol">
+                <div class="vc-general-notes-line"></div> <!-- La línea inicial -->
+                <li>
+                </li>
+            </ol>
+        </div> <!-- class="vc-general-notes"> -->
+
         <!-- TRADUCCIONES -->
         <div class="vc-translations">
-            <div class="vc-translations-line"></div>
+            <div class="vc-translations-line"></div> <!-- La línea inicial -->
             <ol class="vc-translations-ol">
                 <li>
                 </li>
@@ -365,6 +380,30 @@
         list-style-type     : decimal;
     }
 
+/* NOTAS GENERALES  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+    .vc-general-notes{
+        margin-top:    var(--vc-margin-top);
+        margin-bottom: var(--vc-margin-bottom);
+    }
+
+    .vc-general-notes-line-line{
+        width               : 200px;    /* Longitud de la línea */
+        height              : 1px;      /* Grosor */
+        background-color    : #555;     /* Color */
+        margin              : 20px;     /* Espacio arriba/abajo + centrado */
+        /* border-radius: 1px;  /* Bordes ligeramente redondeados, opcional */
+    }
+
+
+    .vc-general-notes-ol{
+        margin-top          : .0rem;
+        margin-bottom       : .0rem;
+        list-style-type     : decimal;
+    }
+
+
 /* TRANSLATIONS   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */    
 
     .vc-translations{
@@ -384,6 +423,12 @@
         margin-top          : .0rem;
         margin-bottom       : .0rem;
         list-style-type     : lower-greek;
+    }
+
+    .vc-general-notes-ol{
+        margin-top          : .0rem;
+        margin-bottom       : .0rem;
+        list-style-type     : decimal;
     }
     
     
