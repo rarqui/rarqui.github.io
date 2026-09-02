@@ -100,7 +100,7 @@
         -webkit-font-variant-ligatures
                         : common-ligatures;
         font-weight     : 400;
-/*      font-style      : italic; */
+        font-style      : italic;
     }
 
     .ts-greek {
@@ -128,6 +128,7 @@
     .ts-phonetic {
         font-family     : monospace;
         font-style      : normal;
+        font-size       : .85em;
     }
     
     

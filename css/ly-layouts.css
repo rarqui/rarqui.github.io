@@ -97,3 +97,16 @@
 
 /*  */
     
+    .ly-poem {
+        width                   : 800px;
+        max-width               : 100%;
+        margin-left             : 0;
+        margin-right            : auto;
+    }
+
+    .poem-translation {
+        width                   : 800px;
+        max-width               : 100%;
+        margin-left             : auto;
+        margin-right            : 0;
+    }
