@@ -14,11 +14,10 @@
         <!-- LEMA -->
         <div class="vc-entry">
             <span class="vc-lema" id="">
-                <span style="color:rgb(0,0,128);">&#10003;</span>
             </span>
             <span class="vc-morphosintaxis">
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- EXPRESIÓN -->            
         <div class="vc-expresion" id="">
@@ -29,10 +28,13 @@
         </div> <!--v class="vc-info" -->
 
         <!-- MORFOLOGIA -->
-        <div class="vc-morfology"><span class="ts-latin"></span></div>
+        <div class="vc-morfology">
+            <span class="ts-latin"></span>
+        </div>
 
         <!-- ETIMOLOGÍA -->                
-        <div class="vc-etimology"></div>
+        <div class="vc-etimology">
+        </div>
         
         <!-- USO -->                
         <div class="vc-use">
@@ -110,15 +112,6 @@
             </ul>
         </div> <!-- class="vc-multiple-notes" -->
 
-        <!-- NOTAS GENERALES -->
-        <div class="vc-general-notes">
-            <ol class="vc-general-notes-ol">
-                <div class="vc-general-notes-line"></div> <!-- La línea inicial -->
-                <li>
-                </li>
-            </ol>
-        </div> <!-- class="vc-general-notes"> -->
-
         <!-- TRADUCCIONES -->
         <div class="vc-translations">
             <div class="vc-translations-line"></div> <!-- La línea inicial -->
@@ -128,7 +121,19 @@
             </ol>
         </div> <!-- vclass="vc-translations"> -->
 
-        <!-- ITEMS DISC -->        
+        <!-- - - - - - - - - - - - - - -  - - - - - - - - -->
+
+        <!-- NOTAS GENERALES -->
+        <div class="vc-general-notes">
+        <ol class="vc-general-notes-ol">
+        <div class="vc-general-notes-line"></div> <!-- La línea inicial -->
+        <li>
+        </li>
+        </ol>
+        </div> <!-- class="vc-general-notes"> -->
+
+
+        <!-- ITEMS DISC -->
         <div class="vc-items-disc">
             <ul class="vc-items-disc-ul">
                 <li>
@@ -140,7 +145,10 @@
             </ul>
         </div> <!-- class="vc-items-disc" -->
         
-        
+        <span styLe="color:red">&#9679;</span> <!-- <<<<<<<<<< -->
+        <span styLe="color:green">&#9679;</span> <!-- <<<<<<<<<< -->
+
+
     </div> <!-- class="vc-containter" -->
 */
 

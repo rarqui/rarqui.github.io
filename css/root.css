@@ -29,6 +29,8 @@
         --border-ink   : #3b352a;
         
         --black-1      : #505050;
+
+        --shadow      : RGB(200, 200, 150);
         
         --font-main    : 'Constantia', 'Palatino Linotype', 'Georgia', serif;
         --font-sf      : 'Roboto', 'Arial', sans-serif;
