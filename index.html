@@ -1,22 +1,26 @@
+|
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" accordion-content="width=device-width, initial-scale=1.0">
 
     <title>Rubén Arquiel - Página personal</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Serif clásica -->
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
-    <!-- Sans moderna -->
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../favicon/favicon1.png">
 
-    <link rel="stylesheet" href="css/root.css">
-    <link rel="stylesheet" href="css/ly-layouts.css">
-    <link rel="stylesheet" href="css/selectors.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">             <!--1-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    <!--2-->
+    <link rel="stylesheet" href="css/root.css">                             <!--3-->
+    <link rel="stylesheet" href="css/selectors.css">                        <!--4-->
+    <link rel="stylesheet" href="css/fonts.css">                            <!--5-->
+    <link rel="stylesheet" href="css/ly-layouts.css">                       <!--6-->
+    <link rel="stylesheet" href="css/vc-vocabulary.css">                    <!--7-->
+    <link rel="stylesheet" href="css/ts-text-styles.css">                   <!--8-->
+    <link rel="stylesheet" href="css/titles.css">                           <!--9-->
+    <link rel="stylesheet" href="css/resources.css">                        <!--10-->
 
+    
     <style>
 
     *{
@@ -29,12 +33,14 @@
             border-bottom: 1px solid var(--line);
     }
 
+    
     .title {
         margin: 0;
-        font-family: "Cormorant Garamond", serif;
-        font-size: clamp(3rem, 8vw, 5rem);
-        font-weight: 500;
-        letter-spacing: 0.03em;
+        font-family     : var(--font-title);
+/*         font-size       : clamp(3rem, 8vw, 5rem);  */
+        font-weight     : 500;
+        color           : var(--ancient-red);
+        letter-spacing  : 0.3em;
     }
 
     .subtitle {
@@ -45,292 +51,72 @@
         text-transform: uppercase;
     }
 
-/* CITA */
-
-    .epigraph {
-        margin-top: 3rem;
-        max-width: 650px;
-        color: var(--muted);
-        font-family: "Cormorant Garamond", serif;
-        font-size: 1.3rem;
-        font-style: italic;
-    }
-
-/* SECCIONES */
-
-    main {
-        padding-top: 4rem;
-        padding-bottom: 5rem;
-    }
-
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 4rem;
-    }
-
-/* BLOQUES */
-
-    .section {
-        position: relative;
-    }
-
-    .section::before {
-        content: "";
-        display: block;
-        width: 50px;
-        height: 1px;
-        margin-bottom: 1.5rem;
-        background: var(--accent);
-    }
-
-    .section h2 {
-        margin-top: 0;
-        font-family: "Cormorant Garamond", serif;
-        font-size: 2rem;
-        font-weight: 500;
-        letter-spacing: 0.03em;
-    }
-
-    .section p {
-        color: var(--muted);
-    }
-
-/* LISTAS */
-
-    .links {
-        list-style: none;
-        padding: 0;
-        margin-top: 2rem;
-
-    }
-
-    .links li {
-        margin-bottom: .75rem;
-    }
-
-/* SMALL CAPS */
-
-    .smallcaps {
-        font-variant: small-caps;
-        letter-spacing: 0.06em;
-    }
-
-/* PIE */
-
-    .xfooter {
-        padding-top: 2rem;
-        padding-bottom: 3rem;
-        border-top: 1px solid var(--line);
-        color: var(--muted);
-        font-size: 0.9rem;
-    }
-
-/* DETALLE GEOMÉTRICO */
-
-    .geometry {
-        position: absolute;
-        top: 2rem;
-        right: 0;
-        opacity: 0.08;
-    }
-
-    .geometry svg {
-        width: 140px;
-        height: 140px;
-    }
-
-    @media (max-width: 700px) {
-        .geometry {
-            display: none;
-        }
-    }
-
     </style>
 
 </head>
 
 <body>
 
+<hr>
+
     <div class="ly-container-document">
 
         <header>
 
-            <h1 class="title">Rubén Arquiel</h1>
-            <div class="subtitle"> Exploraciones personales</div>
-
-<!--    <div class="epigraph">
-        “Scientia et humanitas non adversaria sunt.”
-        </div>
--->
+            <h1 class="title">
+                Rubén Arquiel
+            </h1>
+            <div class="subtitle">
+                Apuntes de exploraciones. Nada terminado.
+            </div>
 
         </header>
 
-        <main>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    
+        <div>
+            <h3>Las palabras y el tiempo</h3>
+        </div>
 
-<!--         <div class="grid"> -->
-
-        <!-- TÉCNICA -->
-
-            <section class="section">
-
-<!--
-            <div class="geometry">
-
-                <svg viewBox="0 0 100 100" fill="none" stroke="black">
-
-                    <polygon points="50,5 95,35 78,90 22,90 5,35"/>
-
-                    <line x1="50" y1="5" x2="22" y2="90"/>
-                    <line x1="50" y1="5" x2="78" y2="90"/>
-                    <line x1="5" y1="35" x2="95" y2="35"/>
-
-                </svg>
-
-            </div>
-<-->
-
-            <h2 class="smallcaps">Técnica</h2>
-
-            <p span class="epigraph">
-                Proyectos de electónica y geometría computacional.
-            </p>
-            
-
-            <ul class="links">
-
+        <div class="vc-items">
+            <ul class="vc-items-disc">
                 <li>
-<!--                     <a href="#1"> -->
-                        Desarrollo de poliedros mediante operaciones de Wythoff y otros operaciones geométricas:
-                        código en OCTAVE con acceso a recursos de Open Cascade Technology
-<!--                     </a> -->
-                </li>
+                    <span class="ts-author">Publio Ovidio Nasón</span> (43 a C. - 17 d. C.) :
+                    <a href="latin/ovidius.aetates.html">Las cuatro edades</a><br>
 
+                    En el poema <span class="ts-latin">Metamorphoses"</span> Ovidio describe las cuatro edades el
+                    del ser humano.
+                </li>
                 <li>
-<!--                     <a href="#2"> -->
-                        Automatización de vivero hidropónico
-<!--                     </a> -->
+                    <span class="ts-author">Gian Franceso Poggio Bracciolini</span> (1380-1459) :
+                    <a href="latin/pb.facetiae.html">Humoradas</a> <br>
+                    Una selección de relatos de <span class="ts-latin">Facetiae</a>.
                 </li>
-
                 <li>
-<!--                     <a href="#3"> -->
-                        Filtro del Kallman aplicado al control por Modelo de Referencia
-                        (<i>Model Following Control)</i>
-                        de un aeromodelo
-<!--                     </a> -->
+                    <span class="ts-author">Cayo Petronio Árbiter</span> (s. I) :
+                    <a href="latin/petronius.matrona.html">La honorable esposa de Éfeso</a><br>
+                    Un relato del Satiricón.
                 </li>
+                <li>
+                    Gesta Romanorum (s. XIV):
+                    <a href="latin/grom-195.html">La historia del préstamo y la libra de carne</a>
 
-<!--                <li>
-                    <a href="#">
-                        Geometría de Wythoff
-                    </a>
-                </li>-->
-
+                </li>
             </ul>
+         </div> <!-- class="vc-items" -->
+    
+    
+    </div> <!-- div container-document --->
 
-        </section>
-
-        <!-- LATÍN -->
-
-        <section class="section">
-
-            <h2 class="smallcaps">Las palabras y el tiempo</h2>
-
-            <p class="epigraph">
-                No pertenezco a la academia, pero el amor por el latín lo llevo desde la infancia.
-                Sólo algunos apuntes de latín, todos en desarrollo.
-            </p>
-
-            <ul class="links">
-
-                <li>
-                    Publio Ovidio Nasón (43 a C. - 17 d. C.):
-                    <a href="latin/ovidio.html">La Edad Dorada</a>
-                </li>
-
-                <li>
-                    Cayo Petronio Árbiter (s. I):</h2>
-                    <a href="latin/petr.html">La honorable esposa de Éfeso.</a>
-                </li>
-
-                <li>
-                    <a href="latin/isam_i-iii.html">Primer libro de Samuel:
-                    versiones latinas de los capítulos I, II y III
-                    - Origen y vocación del Profeta Samuel</a>
-                </li>
-
-<!--                <li>
-                    Himnos del <i>Usus antiquior</i>
-                    Exiliados del culto, refugiados en el mundo de la música
-
-                    <ul>
-                        <li>Veni Creator Spiritus</li>
-                        <li>Stabat Mater</li>
-                        <li>Dies Irae</li>
-                        <li>Christe Redempor Omnium</li>
-                        <li>Nocte Surgentes</li>
-                    </ul>
-
-                </li>-->
-
-                <li>
-                    Gesta Romanorum: <a href="latin/grom-195.html">
-                    Una libra de carne como garantía.</a>
-                </li>
-
-                <li>
-                    Gian Franceso Poggio Bracciolini (1380-1459)
-                    Humanista de primera generación, un hombre ajeno a la academia que supo dejar un legado perdurable.
-                    Estos textos refleja su faceta de humorista.
-                    <ul>
-                        <li><a href="latin/pb.f.8.html">Un dicho de Zucharo</a></li>
-                        <li><a href="latin/pb.f.16.html">El Vizconde Jannot</a></li>
-<!--                         <li>Un Prodigio</li> -->
-<!--                         <li>Otro prodigio</li> -->
-<!--                         <li>Un monstruo</li> -->
-<!--                         <li>Uno que llovó un arado en el hombro</li>                                                 -->
-<!--                         <li>El viejo que cargó con un burro</li>                         -->
-<!--                         <li>Un dicho de un librero</li> -->
-<!--                         <li>El gallo y el zorro</li>                                                                         -->
-                    </ul>
-                </li>
-
-                <li>
-<!--                        <a href="latin/isam_i-iii.html"> 
-                         Tres versiones latinas de un fragmento de Epicteto:
-                       </a>    
-                    Angelo Poliziano, Abraham van Berkel y John Torn-->
-                </li>
-
-                <li>
-                    Vocabulario
-                </li>
-                
-                
-                <li>
-                    Gramática
-
-                    <ul>
-                        <li>Expresión de la finalidad en latín</li>
-                    </ul>
-
-                </li>
-
-
-            </ul>
-
-        </section>
-
-        </main>
-
-        <footer class="xfooter">
+<hr>
+        <footer class="vc-footer">
 
             MMXXVI · Página personal
 
         </footer>
-
-    </div> <!-- div container-document --->
-
+    
+<hr>
+    
 </body>
 
 </html>
