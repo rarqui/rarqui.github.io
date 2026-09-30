@@ -1,11 +1,7 @@
-/*
+***/*
 
-    Ā   ā   Ă   ă
-    Ē   ē   Ĕ   ĕ
-    Ī   ī   Ĭ   ĭ
-    Ō   ō   Ŏ   ŏ
-    Ū   ū   Ŭ   ŭ
-    Ȳ   ȳ
+    ĀāĒēĪīŌōŪū
+    ĂăĔĕĬĭŎŏŬŭȲȳ
 
     <div class="vc-containter">
 
@@ -125,11 +121,12 @@
 
         <!-- NOTAS GENERALES -->
         <div class="vc-general-notes">
-        <ol class="vc-general-notes-ol">
-        <div class="vc-general-notes-line"></div> <!-- La línea inicial -->
-        <li>
-        </li>
-        </ol>
+            <ol class="vc-general-notes-ol">
+                <div class="vc-general-notes-line"></div> <!-- La línea inicial -->
+                    <li>
+                    </li>
+                </div>
+           </ol>
         </div> <!-- class="vc-general-notes"> -->
 
 
@@ -233,14 +230,6 @@
         color               : black;
     }        
 
-/* DEFINICIONES RÁPIDAS    <<< ELIMINAR <<< ELIMINAR <<< ELIMINAR <<< ELIMINAR <<< ELIMINAR <<< ELIMINAR <<< ELIMINAR */        
-    
-    .vc-fast-definition{
-        margin-top          : var(--vc-margin-top);
-        margin-bottom       : var(--vc-margin-bottom);
-        font-style          : italic;
-        color               : orange;
-    }
     
 /* MORFOLOGÍA - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */           
     
@@ -440,20 +429,31 @@
     }
     
     
-/* LISTAS - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */        
+/* LISTAS (UL)- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
     
 
-    .vc-items-disc{                  
+    .vc-items{
         margin-top:    var(--vc-margin-top);
         margin-bottom: var(--vc-margin-bottom);
     }
+
+    .vc-items-none {
+        margin-top         : .0rem;
+        margin-bottom      : .0rem;
+        list-style-type    :  none;
     }
 
-    .vc-items-disc-ul {
+    .vc-items-disc {
          margin-top         : .0rem;
          margin-bottom      : .0rem;
-         list-style-type    : disc; /*circle, square, none */
-    }
+         list-style-type    : disc;
+     }
+
+     .vc-items-circle {
+         margin-top         : .0rem;
+         margin-bottom      : .0rem;
+         list-style-type    : circle;
+     }
     
     
 /* NOTAS GENERALES  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */    
@@ -464,4 +464,15 @@
     }    
 
 
-&#x2713
+/* FOOTER - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+    .vc-footer {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.9rem;
+    }
+
+
+/* &#x2713 */
