@@ -1,15 +1,8 @@
 
 <!--
 
-
-
-    Ā   ā   Ă   ă
-    Ē   ē   Ĕ   ĕ
-    Ī   ī   Ĭ   ĭ
-    Ō   ō   Ŏ   ŏ
-    Ū   ū   Ŭ   ŭ
-    Ȳ   ȳ
-
+    ĀāĒēĪīŌōŪūȲȳ
+    ĂăĔĕĬĭŎŏŬŭ
 -->
 
 <!DOCTYPE html>
@@ -56,7 +49,11 @@
 
 <hr>
 
-<div class="ly-container-document">
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!--                                                                                                                 -->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<main class="ly-main-container">
 
     <header>
 
@@ -132,17 +129,17 @@
         </ul>
     </div>
 
-</div> <!--  class="ly-container-document" -->
+</main> <!--  class="ly-main-container" -->
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <!--                                                    EL TEXTO                                                     -->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-<div class="ly-container-document">
+<main class="ly-main-container">
 
     <h2 class="ts-section-title">El texto</h2>
 
-    <div class="ly-grid-2c">
+    <section class="ly-section-container-grid-2c">
 
         <div class="ly-grid-box ts-sc-centered-label ts-label-underline ts-label ts-label-underline">
             <span id="id_index_el_texto">
@@ -154,7 +151,7 @@
             <i>Traducción tentantiva</i>
         </div>
 
-        <div class="ly-grid-box" style="font-family:var(--font-latin); font-style:italic; font-size:1.1em;">
+        <div class="ts-latin" style="text-indent:1em">
 
             Aurea prîma
             <a href="#id_sata" class="hlink">sata</a> est
@@ -270,9 +267,9 @@
             <a href="#id_ilex" class="hlink">īlice</a>
             <a href="#id_mel" class="hlink">mella</a>.
 
-        </div> <!-- class="ly-grid-box ts-text-main" style="font-size:1.1em"> -->
+        </div>
 
-        <div class="ly-grid-box ts-text-aux">
+        <div style="text-indent:1em">
 
             <!--89-90-->
             Surgió primera edad, la Edad Dorada, que sin custodios, a su voluntad, sin ley,
@@ -640,15 +637,15 @@
 
         </div> <!-- class="ly-grid-box ts-text-aux"> -->
 
-    </div> <!-- <div class="ly-grid-2c"> -->
+    </section>
 
-</div><!-- <span class="ly-container-document">-->
+</main>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <!--                                                 NOTAS                                                        // -->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-<div class="ly-container-document">
+<main class="ly-main-container">
 
 <h2 class="ts-section-title" id="id_index_notas">Notas</h2>
 
@@ -906,7 +903,7 @@
 
     </div> <!-- class="vc-general-notes"> -->
 
-</div>
+</main> <!-- class="ly-main-container" -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
@@ -928,7 +925,7 @@
 <!--                                             PROSODIA                                                         // -->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-<div class="ly-container-document">
+<main class="ly-main-container">
 
 <h2 class="ts-section-title" id="id_index_prosodia">Prosodia</h2>
 
@@ -1019,24 +1016,25 @@
 
     </div>
 
-</div>
+</main> <!-- class="ly-main-container" -->
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <!--                                            VOCABULARIO                                                       // -->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-<div class="ly-container-document">
+<main class="ly-main-container">
 
 <h2 class="ts-section-title" id="id_index_vocabulario">Vocabulario</h2>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
+
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_aconitus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Aconītum, -ī
@@ -1044,24 +1042,24 @@
             <span class="vc-morphosintaxis">
                 n.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Acónito: género de plantas altamente tóxicas.
             Comprende unas 331 especies.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!--CARD-->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_admoveo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Admoveō, admovēs, admōvī, admōtum, admovēre
@@ -1069,26 +1067,26 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Aproximar, acercar;
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- USO -->
-        <div class="vc-use">
+        <div class="ly-vc-h vc-use">
             <span class="ts-latin">Aliquid ad aliud advmōvēre.</span>&nbsp;—
             <span class="ts-latin">Puer librum ad oculōs admōvit ut clārius legeret.</span>&nbsp;—
             <span class="ts-latin">Mīlēs scūtum pectorī admōvit ut sē tūtārētur.</span>&nbsp;—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">Est verbum locale, quod motum ad locum significat,
             ita ut rēs alienā vī moveātur, et ponitur praecipuē dē rēbus inanimīs.</span>
             <span class="ts-author">Forcellini</span>
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En las fuentes:
             <ul class="vc-examples-ul">
                 <li>
@@ -1102,10 +1100,10 @@
                     <span class="ts-author">Petronio</span>
                 </li>
             </ul>
-        </div> <!--  <div class="vc-examples"> -->
+        </div> <!--  <div class="ly-vc-h vc-examples"> -->
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             <b>En la Vulgata sixto-clementina:</b>
             <ul class="vc-examples-ul">
                 <li>
@@ -1114,10 +1112,10 @@
                     <span class="ts-author">1&nbsp;Mac&nbsp;10,&nbsp;48</span>
                 </li>
             </ul>
-        </div> <!--  <div class="vc-examples"> -->
+        </div> <!--  <div class="ly-vc-h vc-examples"> -->
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -1125,18 +1123,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- class="vc-containter" -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_aer">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Āēr, -is / -ŏs
@@ -1144,15 +1142,15 @@
             <span class="vc-morphosintaxis">
                 m. o f.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Aire.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-japanese">
@@ -1160,18 +1158,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_aes">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Aes, aeris
@@ -1182,7 +1180,7 @@
        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
                 Todo metal sacado de las minas (exceptuando el oro  y la plata)
                 Puede ser el cobre (<span class="ts-latin">aes fossilis, aes Cyprum</span>),
                 o aleaciones de cobre (<span class="ts-latin">aes factīcium</span>):
@@ -1190,16 +1188,16 @@
                 arsénico (<span class="ts-latin">aes candidum</span>),
                 cinc (<span class="ts-latin">orichalcum</span>, latón),
                 u otros metales.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- USO -->
-        <div class="vc-use">
+        <div class="ly-vc-h vc-use">
             <span class="ts-latin">Propriē est speciēs metallī colōre rubrō.&nbsp—
             <span class="ts-latin">Cuprum cum stannō mixtum.&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Dē aere fossilī et factīciō generātim. [...]
                 Inter aera fossilia apud veterēs celeberrimum memorātur aes Cyprium. [...]
@@ -1220,7 +1218,7 @@
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En las fuentes:
             <ul class="vc-examples-ul">
                 <li>
@@ -1244,7 +1242,7 @@
         </div>
 
         <!-- NOTAS -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-notes-ul">
                 <li>
                     <span class="ts-english">Cupper, bronze, or brass.</span>
@@ -1291,16 +1289,16 @@
             </ol>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h" >
             <span class="vc-lema" id="id_aestus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Aestus, -ūs
@@ -1311,7 +1309,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-japanese">
@@ -1321,18 +1319,18 @@
                     verano.
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_aevum">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Aevum, -ī
@@ -1343,18 +1341,18 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Época, tiempo, siglo.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- USO -->
-        <div class="vc-use">
+        <div class="ly-vc-h vc-use">
             <span class="ts-latin">
                 Omnis aevī clārī virī.</span>&nbsp;—
-        </div> <!--v class="vc-use" -->
+        </div> <!--v class="ly-vc-h vc-use" -->
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Propriē aevum est temporis perpetuitās [...]
                 Ponitur etiam prō saeculō et generātim prō tempore.
@@ -1362,18 +1360,18 @@
             <span class="ts-author">
                  Forcellini
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_arbuteus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Arbuteus, -a, -um
@@ -1381,22 +1379,22 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Relativo al madroño. Hay varias especies de madroño.
             En Italia y la cuenca del Mediterráneo: <span class="ts-latin">arbūtus unēdō</span>.
             En Grecia: <span class="ts-latin">arbūtus andrachne</span>.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_arista">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Arista, -ae
@@ -1407,18 +1405,18 @@
          </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Punta de la espiga. Espiga.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- USO -->
-        <div class="vc-use">
+        <div class="ly-vc-h vc-use">
             <span class="ts-latin">Spīca mūnītur vallō aristārum contrā avium minōrum
             morsum</span><span class="ts-sup"><b>(&alpha;)</b>.</span>&nbsp—
         </div>
 
         <!-- DEFINICIONES MÚLTIPLES -->
-        <div class="vc-multiple-definitions">
+        <div class="ly-vc-h vc-multiple-definitions">
             <ul class="vc-multiple-definitions-ul">
                 <li>
                     <span class="ts-latin">
@@ -1444,7 +1442,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-notes-ul">
                 <li>
                     <span class="ts-latin">Spīca est pars frūmentī in quā grāna continentur.
@@ -1478,7 +1476,7 @@
             </ol>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
@@ -1487,7 +1485,7 @@
 <!--         <hr> <!-- CARD -->
 
 <!--         <!-- LEMA -->
-<!--         <div class="vc-entry"> -->
+<!--         <div class="ly-vc-h"> -->
 <!--             <span class="vc-lema" id="id_arte"> -->
 <!--                 Arctē -->
 <!--             </span> -->
@@ -1497,7 +1495,7 @@
 <!--         </div> -->
 
 <!--         <!-- INFO -->
-<!--         <div class="vc-info"> -->
+<!--         <div class="ly-vc-h ly-vc-w"> -->
 <!--             Estrechamente. -->
 <!--         </div> -->
 
@@ -1505,12 +1503,12 @@
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_astraea">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Astraea, -ae
@@ -1518,23 +1516,23 @@
             <span class="vc-morphosintaxis">
                 f.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Diosa virgen de la justicia.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_astringo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Astringō, astringis, astrīnxī, astrictum, astringere
@@ -1542,29 +1540,28 @@
             <span class="vc-morphosintaxis">
                 > adstrictus, -a, -um pp. y adj.
             </span>
-        </div> <!-- class="vc-entry" -->
-
-        <!-- INFO -->
-        <div class="vc-info">
-            Amarrar, atar. Estrechar, apretar. Atar, sujetar.
-        </div> <!--v class="vc-info" -->
-
-        <!-- MORFOLOGIA -->
-        <div class="vc-morfology">
-            También <span class="ts-latin">ads</span>-
-
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+        <!-- INFO -->
+        <div class="ly-vc-h ly-vc-w vc-info">
+            Amarrar, atar. Estrechar, apretar. Atar, sujetar.
+        </div>
+
+        <!-- MORFOLOGIA -->
+        <div class="ly-vc-h vc-morphology">
+            También <span class="ts-latin">ads</span>-
+        </div>
+
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_autumnus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Autumnus, -ī
@@ -1572,10 +1569,10 @@
             <span class="vc-morphosintaxis">
                 m.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-japanese">
@@ -1607,18 +1604,18 @@
                     = El sol de otoño es menos fuerte.-->
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_caedes">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Caedēs, -is
@@ -1626,15 +1623,15 @@
             <span class="vc-morphosintaxis">
                 f.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Matanza, carnicería. Muerte, asesinato. La sangre derramada. Los muertos.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Ceterum caedēs est concīsiō, recīsō, sive actus secandī atque ad terram prōsternendī percutiendō [...]
                 Hisp. <span class="ts-latin-emph">el acto de cortar, de abatir</span> [...]
@@ -1646,10 +1643,10 @@
             <span class="ts-author">
                 Forcellini
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -1664,19 +1661,20 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <!--Cocina números 648 745-->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
+
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_caedo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Caedō, caedis, cecīdī, caesum, caedĕre
@@ -1684,12 +1682,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Cortar. Golpear, herir. Abatir, derribar.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Caedere est acūtō aliquō instrūmentō aliquid secāre atque ad terram  prōsternere.
             </span>
@@ -1699,7 +1697,7 @@
         </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -1713,18 +1711,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_caelestis">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Caelestis, -is
@@ -1732,15 +1730,15 @@
             <span class="vc-morphosintaxis">
                 m. o f.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Habitante del cielo. Divinidad.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Caelestis est etiam ad caelum pertinēns, quā caelum deōrum sēdēs cogitātur,
                 ac proindĕ ponitur prō dīvīnō. [...]
@@ -1749,10 +1747,10 @@
             <span class="ts-author">
                 Forcellini
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">A deity.</span>
@@ -1762,41 +1760,39 @@
                     deidad.
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_candeo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Candeō, candēs, canduī, candēre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Estar blanco o brillante a causa del calor. Tener una blancura billante. Candente.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
-
-<!-- Pérez se encandeció -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_caneo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Cāneō, cānēs, cānuī, —, cānēre
@@ -1804,17 +1800,17 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Estar blanco, gris o canoso.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Dīcitur dē omnibus quae albēscunt.</span>&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Cāneō est albescō sine splendōre, atque ita ut cinereum colōrem referam.
             </span>
@@ -1823,15 +1819,16 @@
             </span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-    <div class="vc-containter">
+
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_carina">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Carīna, -ae
@@ -1842,20 +1839,20 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Quilla.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_ceu">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Ceu
@@ -1866,20 +1863,20 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Como.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_cingo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Cingō, cingis, cīnxī, cīnctum, cingĕre
@@ -1887,18 +1884,18 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Rodear.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- USO -->
-        <div class="vc-use">
+        <div class="ly-vc-h vc-use">
             <span class="ts-latin">Coerceō, comprehendō, circundō.</span>&nbsp—
             <span class="ts-latin">Īnsulae marī cinguntur.</span>&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Cingō est circum complector, circumdō,
                 circulum vel ānulum faciō circum persōnam aut rem aliquam. [...]
@@ -1912,7 +1909,7 @@
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -1928,7 +1925,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-japanese">
@@ -1937,18 +1934,18 @@
                     rodear, envolver.
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_cogo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Cōgō, cōgis, coēgī, coāctum, cōgĕre
@@ -1956,19 +1953,19 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Reunir, juntar, agrupar.
             b. Recorger, cosechar, recaudar.
             c. Forzar, obligar (en este sentido aparece en la sixto-clementina).
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- USO -->
-        <div class="vc-use">
+        <div class="ly-vc-h vc-use">
             <span class="ts-latin">Invītus fēcī: lēx coegit</span>.&nbsp—
         </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Cogere propriē est multa simul in ūnum locum vocandō vel impellendō agere, dūcere
                 Hisp.  <span class="ts-latin-emph">volver à unir, reunir;</span>
@@ -1978,10 +1975,10 @@
             <span class="ts-author">
                 Forcellini
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En las fuentes:
             <ul class="vc-examples-ul">
                 <li>
@@ -1991,31 +1988,38 @@
             </ul>
         </div>
 
+        <!-- EN LOS TEXTOS -->
+        <div class="ly-vc-h vc-in-texts">
+            <ul class="vc-in-texts-ul">
+                <li>
+                    <span class="ts-latin">Ut amīcus esse cōgerētur</span> : para que se viera forzado a ser amigo.
+                </li>
+            </ul>
+        </div>
 
-
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_concutio">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Concutiō, concutis, concussī, concussum, concutĕre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Agitar, sacudir.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -2030,18 +2034,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_contineo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Contineō, continēs, continuī, contentum, continēre
@@ -2052,20 +2056,20 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Como adjetivo: contento, satisfecho.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_colo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Colō, colis, coluī, cultum, colĕre
@@ -2073,16 +2077,16 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Cultivar, cuidar.
             Proteger.
             Habitar.
             Practicar.
             Honrar, venerar.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Colō est studium, operam, labōrem ponō in rē aliquā perficiendā,
                 assiduus sum circā rem aliquem,
@@ -2097,7 +2101,7 @@
         </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -2110,10 +2114,10 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -2122,31 +2126,31 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_contraho">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Contrahō, contrahis, contrāxī, contractum, contrahĕre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Contraer, reducir, disminuir.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Strictō sēnsū est addūcere,
                 trahendō simul adstringere,
@@ -2157,18 +2161,18 @@
             <span class="ts-author">
                 Forcellini
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_cornu">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Cornū, cornūs / cornū
@@ -2179,7 +2183,7 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             "Un
             <span class="ts-latin">corna</span> o
             <span class="ts-latin">cornum</span>
@@ -2193,7 +2197,7 @@
             </span>
         </div>
 
-        <div class="vc-multiple-definitions">
+        <div class="ly-vc-h vc-multiple-definitions">
             <ul class="vc-multiple-definitions-ul">
                 <li>
                     <span class="ts-latin">
@@ -2232,16 +2236,16 @@
             </ol>
         </div>
 
-     </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_cornum">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Cornum, -ī
@@ -2252,20 +2256,20 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Cereza cornalina.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_cortex">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Cortex, -icis
@@ -2273,53 +2277,53 @@
             <span class="vc-morphosintaxis">
                 m. y f.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Corteza
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_crepito">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Crepitō, crepitàs, crepitāvī, crepitātum, crepitāre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Crepitar, crujir, hacer ruido.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Crepitō est vehementem et resonantem crepitum (strepitus, sonitus) edō.
                 Hisp. <span class="ts-latin-emph">rechinar, cruxir, estallar, retombar, resonar mucho;</span>
             </span>
             <span class="ts-author"></span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_decido">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Dēcidō, dēcidis, dēcidī, decidĕre
@@ -2327,12 +2331,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Caer.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -2353,22 +2357,19 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
 
-
-
-
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_directus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Dīrēctus, -a, -um
@@ -2376,25 +2377,25 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Recto, derecho.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- MORFOLOGIA -->
-        <div class="vc-morfology">
+        <div class="ly-vc-h vc-morphology">
             También <span class="ts-latin">der</span>-
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_deterior">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Dēterior, -ius
@@ -2405,13 +2406,13 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Peor, inferior, de menor calidad.
             Es un comparativo que carece de forma positiva (*dēter)
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -2430,18 +2431,18 @@
                 </li>
 
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_dolus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Dolus, -ī
@@ -2449,10 +2450,10 @@
             <span class="vc-morphosintaxis">
                 m.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Antīquī enim, [...] etiam in bonīs rēbus ūtebantur:
                 unde adhuc dīcimus sine dolō malō [...]
@@ -2465,10 +2466,10 @@
             </span>
             <span class="ts-author">
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -2479,18 +2480,18 @@
                     <span class="ts-author">&nbsp;</span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_dives">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Dīvĕs, -itis
@@ -2501,12 +2502,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Rico.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -2533,10 +2534,10 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-japanese">
@@ -2556,18 +2557,18 @@
                     rico (adjetivo-<span class="ts-japanese">な</span>)
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_effodio">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Effodiō, effodiis, effōdī, effossum, effodĕre
@@ -2575,22 +2576,22 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Desenterrar, extraer. Extraer cavando.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Effodere est fodiendō ēruēre<span class="ts-sup"><b>(&alpha;)</b></span>.
             </span>
             <span class="ts-author">
                 Forcellini
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -2606,7 +2607,7 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
          <!-- TRADUCCIONES -->
         <div class="vc-translations">
@@ -2621,16 +2622,16 @@
             </ol>
         </div> <!-- vclass="vc-translations"> -->
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_ensis">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Ēnsis, -i
@@ -2641,17 +2642,17 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Voz poética: espada, guerra.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- USO -->
-        <div class="vc-use">
+        <div class="ly-vc-h vc-use">
             <span class="ts-latin">Gladius.</span>&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Vox poētica. [...]
                 Ēnsis est gladius mīlitāris. [...]
@@ -2663,7 +2664,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-notes-ul">
                 <li>
                     <span class="ts-japanese">
@@ -2680,16 +2681,16 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_exigo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Exigō, exigis, exēgī, exāctum, exigĕre
@@ -2697,7 +2698,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -2710,18 +2711,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_exitium">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Exitium, -iī / -ī
@@ -2732,7 +2733,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -2745,18 +2746,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_fero">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Ferō, fers, tulī / tetulī, lātum, ferre
@@ -2767,12 +2768,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Cargar. B) Producir (fruto, cosecha, etc.)
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Strictô sênsû ferre est bâjulâre...
                 Est etiam gignere,
@@ -2783,7 +2784,7 @@
         </div>
 
        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -2798,12 +2799,12 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
 
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -2811,18 +2812,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_fervor">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Fervor, -ōris
@@ -2833,12 +2834,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Agitación, ardor, efervescencia; calor vehemente, como el del fuego o el del sol.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -2846,10 +2847,10 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -2862,18 +2863,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_fetus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Fētūs, -ūs
@@ -2884,12 +2885,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Fruto.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Partus, prōlēs, sobolēs (subolēs), frūctūs.
             </span>
@@ -2899,25 +2900,25 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
             <li>
                 <span class="ts-english">
                     The bearing of fruits (by plant).
                 </span>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_fides">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Fidēs, -eī
@@ -2928,7 +2929,7 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Lealtad a la palabra dada. Virtud fundamental en el mundo romano.<br>
             «<span class="ts-latin">Fidēs</span> es todo lo que se aplica a la buena fe,
             honor o credibilidad en diferentes relaciones,
@@ -2940,10 +2941,10 @@
             (<span class="ts-latin">fidēs patrōnī</span>),
             hasta su total independencia, que se producía cuando moría él y sus herederos.»</span>
             <span class="ts-author">Wiki</span>
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En las fuentes:
             <ul class="vc-examples-ul">
                 <li>
@@ -2984,16 +2985,16 @@
             </ol>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_figo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Fīgō, fīgis, fīxī, fīxum, fīgĕre
@@ -3001,17 +3002,17 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Clavado.
         </div>
 
         <!-- USO -->
-        <div class="vc-use">
+        <div class="ly-vc-h vc-use">
             <span class="ts-latin">Firmāre aliquid alicuī reī.</span>&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Fīxus: dēcrētus, statūtus, stabilis, firmus, ratus.
             </span>
@@ -3021,7 +3022,7 @@
         </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -3036,19 +3037,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
-
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_fluctus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Flūctus, -ūs
@@ -3059,12 +3059,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Ola, oleaje.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -3085,10 +3085,10 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-japanese"><ruby>波<rt>なみ</rt></ruby></span>
@@ -3107,18 +3107,18 @@
                     la obra maestra de Katsushika Hokusai.
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_fragum">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Frāgum, -ī
@@ -3129,20 +3129,20 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Usualmente en plural: frutilla / fresa.
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_fraus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Fraus, fraudis
@@ -3153,7 +3153,7 @@
         </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Fraus est fallacia, circumscrīptiō, dēceptiō, quā quippiam alterī dēbitum nōn redditur,
                 aut aufertur et injūstē acquīritur ac retinētur.
@@ -3169,7 +3169,7 @@
             </span>
             <span class="ts-author">
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- TRADUCCIONES -->
         <div class="vc-translations">
@@ -3187,16 +3187,16 @@
             </ol>
         </div> <!-- vclass="vc-translations"> -->
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_frutex">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Frutex, fruticis
@@ -3204,23 +3204,23 @@
             <span class="vc-morphosintaxis">
                 m.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Arbusto; retoño, vástago, ramaje.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_frux">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Frūx, frūgis
@@ -3231,17 +3231,17 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Fruto.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Frūctus.&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Omnēs terrae frūctus, quibus ad alimentum ūtimur, frūmenta, legūmina, pōma,
                 nucēs etc.
@@ -3252,7 +3252,7 @@
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -3267,7 +3267,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-notes-ul">
                 <li>
                     <span class="ts-latin">Omne illud, quod ex frūctū terrae ut alimōniam vertimus,
@@ -3277,29 +3277,29 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_fulvus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Fulvus, -a, -um
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Rojo, color de león. Amarillento rojizo u oscuro. parduzco. Dorado.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -3307,33 +3307,33 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_fugio">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Fugiō, fugīs, fūgī, fugitum, fugĕre
             </span>
             <span class="vc-morphosintaxis">
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Huir.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -3355,18 +3355,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_galea">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Galea, -ae
@@ -3377,12 +3377,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Casco, yelmo.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Cassīs, tegumentum capitis ad mūnimentum in bellīs contrā ictūs ac
                 tēla<span class="ts-sup">&nbsp<b>(&alpha;)</b></span>.
@@ -3391,7 +3391,7 @@
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -3406,7 +3406,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-notes-ul">
                 <li>
                     ヘルメット : casco en general;
@@ -3427,16 +3427,16 @@
             </ol>
         </div> <!-- vclass="vc-translations"> -->
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_gemo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Gemō, gemis, gemuī, gemitum, gemĕre
@@ -3444,12 +3444,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Gemir, suspirar; llorar, deplorar; deplorar, lamentar.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -3461,13 +3461,13 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
 
 
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -3480,21 +3480,19 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
 
-
-
-    </div> <!-- class="vc-containter" -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_glans">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Glāns, glandis
@@ -3505,12 +3503,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Bellota. nuez de roble.
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Nux ē quercū.
             </span>
@@ -3519,16 +3517,16 @@
             </span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_gravidus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Gravidus, -a, -um
@@ -3536,18 +3534,18 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Lleno, cargado, especialmente las hembras preñadas.
             Cf. grávida,
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Speciātim mulier dīcitur gravida, quae iam conceptō foetū gravātur.&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Onustus, ponderōsus, onere gravis: sed propriē speciātim tantum occurrit,
                 et gravidae dīcuntur animantēs,
@@ -3558,13 +3556,13 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">Gravid (<span class="ts-phonetic">/ˈɡɹævɪd/</span>)</span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
         <!-- TRADUCCIONES -->
         <div class="vc-translations">
@@ -3577,16 +3575,16 @@
             </ol>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_haereo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Haereō, haerēs, haesī, haesum, haerērī
@@ -3597,36 +3595,38 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Adherir, pegar.
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Adhēreō, adhērēscō.</span>&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">Arctē alicuī reī jungor, affīxus, conjūnctus sum.</span>
             <span class="ts-author">Forcellini</span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- EXPRESIÓN -->
-        <div class="vc-expresion" id="id_iam_iam">
-            Iam... iam...
-        </div>
+        <div class="ly-vc-h">
+            <span class="vc-expression" id="id_iam_iam">
+                Iam... iam...
+            </span>
+        <div class="ly-vc-h">
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
                     <span class="ts-latin">Jam–jam</span>, equivale a un
                     <span class="ts-latin">modō–modō</span>. [...]
                     A veces significa casi lo mismo que un <span class="ts-latin">et–et</span>,
@@ -3634,7 +3634,7 @@
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Jam – jam prō modō – modō ponitur [...] —
                 Interdum idem ferē est quod et – et, praecipuē apud Poētās.
@@ -3645,7 +3645,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-notes-ul">
                 <li>
                     <span class="ts-english">Many adverbs are used in pairs, as conjunctions,
@@ -3654,16 +3654,16 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- ENTRY -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_hiems">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Hiems, hiemis.
@@ -3674,7 +3674,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-japanese">
@@ -3683,18 +3683,18 @@
                     : invierno.
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- ENTRY -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_hospes">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Hospĕs, -itis
@@ -3705,12 +3705,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Anfitrión. b. Huésped, visitante, presona de paso. c. Extranjero.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -3731,27 +3731,27 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     c. <span class="ts-latin">Peregrīnus</span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- ENTRY -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_iaceo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Iaceō, iacēs, iacuī, iacitum, iacēre
@@ -3759,12 +3759,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Yacer, estar tendido.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Ad terram plānus esse, sē extendere.
             </span>
@@ -3774,7 +3774,7 @@
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -3788,16 +3788,16 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_ilex">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Īlex, īlicis
@@ -3808,36 +3808,36 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Encina (<span class="ts-latin">quercus īlex</span>),
             considerada antiguamente árbol sagrado.</span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_immineo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Immineō, imminēs, imminuī, —, imminēre
             </span>
             <span class="vc-morphosintaxis">
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- MORFOLOGIA -->
-        <div class="vc-morfology">
+        <div class="ly-vc-h vc-morphology">
             También <span class="ts-latin">inm</span>-
         </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Imminēre est suprā manēre, impendere [..]
                 Speciātim ad facilitātem īnferendae injūriae refertur, et imminēre,
@@ -3850,12 +3850,12 @@
             <span class="ts-author">
                 Forcellini
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
 
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -3868,18 +3868,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
-    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_inaratus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Inarātus, -a, -um
@@ -3887,12 +3887,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             No arado, no labrado.
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Nōn arātus. Incultus.
             </span>
@@ -3901,16 +3901,16 @@
             </span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_inmunis">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Inmūnis, -e
@@ -3918,12 +3918,12 @@
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Vacuus ā mūnere, quī mūnere vacat.&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Immūnis est quī vacat ā mūneribus, quae aliī praestāre debent.
                 Hinc domī immūnīs dīcitur, quī ā tribūtīs, vectigālibus etc. est līber:
@@ -3935,16 +3935,16 @@
             </span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_insidiae">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Īnsidiae, -ārum
@@ -3952,30 +3952,27 @@
             <span class="vc-morphosintaxis">
                 f. pl.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Asechanza, emboscada. Insidia, perfidia, traición, manejos ocultos.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
-                Insidiae sunt occulta et dolosa exspectatio ad aliquem aggrediendum:
-                ab insideo, quia clam aliquis insidetur locus,
-                ex quo in tempore ad vim afferendam erumpatur [...]
-                Hisp.
-                <span class="ts-latin-emph">
-                    celada, fraude, engaňo oculto, emboscada;
-                </span>
+                Īnsidiae sunt occulta et dolōsa exspectâtiô ad aliquem aggrediendum:
+                ab însideô, quia clam aliquis însidêtur locus,
+                ex quô in tempore ad vim afferendam êrumpâtur [...]
+                Hisp. <span class="ts-latin-emph">celada, fraude, engaňo oculto, emboscada;</span>
             </span>
             <span class="ts-author">
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -3987,31 +3984,31 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_insulto">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Īnsultō, īnsultās, īnsultāvī, īnsultāre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Lanzarse a, saltar en o sobre.
-        </div> <!--v class="vc-info" -->
+        </div> <!-- class="ly-vc-h ly-vc-w" -->
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -4020,18 +4017,18 @@
 
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_irritamentum">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Irrītāmentum, -ī
@@ -4039,15 +4036,15 @@
             <span class="vc-morphosintaxis">
                 n.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- MORFOLOGIA -->
-        <div class="vc-morfology">
+        <div class="ly-vc-h vc-morphology">
             También <span class="ts-latin">inr</span>-
         </div>
 
         <!-- EJEMPLOS DE LAS FUENTES-->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En las fuentes:
             <ul class="vc-examples-ul">
                 <li>
@@ -4059,9 +4056,9 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -4070,36 +4067,36 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_irrumpo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Irrumpō, irrumpis, irrūpī, irruptum, irrumpĕre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Entrometerse. Invadir. Imponerse.
         </div>
 
         <!-- MORFOLOGIA -->
-        <div class="vc-morfology">
+        <div class="ly-vc-h vc-morphology">
             También <span class="ts-latin">inr</span>-
         </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 <span class="ts-latin">
                     Irrumpere est intrōrumpere, irruēre, vī atque impetū ingrĕdī, invādēre, irruptiōnem facere, [...]
@@ -4109,10 +4106,10 @@
             <span class="ts-author">
                 Forcellini
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -4122,18 +4119,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_iuppiter">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Iuppiter, Iovis
@@ -4141,15 +4138,15 @@
             <span class="vc-morphosintaxis">
                 m.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Júpiter.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- MORFOLOGIA -->
-        <div class="vc-morfology">
+        <div class="ly-vc-h vc-morphology">
             Nom., Voc.: <span class="ts-latin">Iuppiter.</span>
             Ac.: <span class="ts-latin">Iovem.</span>
             Dat., <span class="ts-latin">Iovī.</span>
@@ -4157,16 +4154,16 @@
             Gen.: <span class="ts-latin">Iovis.</span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_iuvencus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 iuvencus, -ī
@@ -4177,15 +4174,15 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Toro joven o buey. También: hombre o mujer joven. El texto parece referirse a un animal y
             así traduce Pérez Vega: "y hundidos por el yugo gimieron los novillos". En la biblia aparece en el sentido
             de joven: <span class="ts-latin">Castigasti me, et eruditus sum, quasi juvenculus indomitus</span>
             (<span class="ts-author">Jer&nbsp;31,&nbsp;18</span>)
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Est bōs juvenis, quī jam vitulus esse dēsiit, nondum tamen ad jūstam magnitūdinem pervēnit [...]
                 Hisp. <span class="ts-latin-emph">toro joven</span>; [...]
@@ -4194,10 +4191,10 @@
             <span class="ts-author">
                 Forcellini
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -4213,18 +4210,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_lego">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Legō, legis, lēgī, lēctum, legĕre
@@ -4232,20 +4229,20 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Leer. b. Recoger; escoger.
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_limes">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Līmĕs, -itis
@@ -4253,37 +4250,34 @@
             <span class="vc-morphosintaxis">
                 m.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Inicialmente sendero, principalmente rural, también punto de entrada o de salida, umbral.
             También línea (Forcellini: <span class="ts-latin">Ponitur et prô lîneâ</span>)
             y metafóricamente, límite (Forcellini: <span class="ts-latin">Metaphoricĕ prô fîne</span>)
-        </div> <!--v class="vc-info" -->
+        </div>
 
 
-
-    </div> <!-- <div class="vc-containter"> -->
-
-
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_luridus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Lūridus, -a, -um
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
-        <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
+        <div class="ly-vc-h ly-vc-w">
             Amarillo pálido, amarillento, pálid, p. ej. RGB (255, 255, 128) :
                 <svg width="30" height="30" viewBox="0 0 30 30"
                      style="display:inline-block;vertical-align:middle;">
@@ -4291,10 +4285,10 @@
                     stroke="black" stroke-width="1"/>
                 </svg>
 
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -4302,39 +4296,39 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_madeo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Madeō, madēs, maduī, —, madēre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Ser humedecido, mojado.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_mel">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Mel, mellis
@@ -4345,12 +4339,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Miel.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -4366,7 +4360,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-notes-ul">
                 <li>
                     <span class="ts-japanese">
@@ -4376,16 +4370,16 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_mensor">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Mēnsor, -ōris
@@ -4396,20 +4390,20 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Medidor. Agrimensor. Arquitecto.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_minor">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Minor, mināris, minātus sum, minārī
@@ -4417,18 +4411,18 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Amenazar.
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">
                 Īrātus, Dominus pigrum servum fūste minābātur.</span>&nbsp—
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -4438,16 +4432,16 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_mollis">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Mollis, -e
@@ -4455,12 +4449,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Blando.
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Mollīs est ita tener, ut flectī possit, flexibilis.
             </span>
@@ -4469,16 +4463,16 @@
             </span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_morus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Mōrus, -ī
@@ -4489,20 +4483,20 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Árbol de morera negra.
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_mulceo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Mulceō, mulcēs, mulsī, mulsum / mulctum, mulcēre
@@ -4510,18 +4504,18 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Acariciar. Cf. <span class="ts-latin">Dēmulcēre</span>: acariciar con ternura.
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Lēnīre, mollīre, blandīre, mītigāre, dulcem facere, dēlectāre.&nbsp—
             <span class="ts-latin">Carmina mulcent mentēs.</span>&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Mulcēre, verbum plērumque poēticum, est palpāre,
                 lēnī manū tractāre, dēmulcēre [...]
@@ -4533,16 +4527,16 @@
             </span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_navita">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Nāvita, -ae
@@ -4553,20 +4547,20 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Marinero (poético)
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_nectar">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Nectar, -aris
@@ -4577,17 +4571,17 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Néctar.
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Deōrum inmortālium pōtus.</span>&nbsp—
         </div>
 
          <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Pōtus deōrum, ut ambrosia cibus est.
                 Graecī prōmiscuē et ambrosiam prō nectāre, et nectar prō ambrosiā ponunt.
@@ -4598,7 +4592,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-notes-ul">
                 <li>
                     <span class="ts-latin">Nectar (νέκταρ) in mythologiā Graecā fuit pōtiō (vel secundum nōnnūllōs
@@ -4609,16 +4603,16 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_nefas">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Nefās
@@ -4626,15 +4620,15 @@
             <span class="vc-morphosintaxis">
                 n. indecl.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Lo que es contrario a la voluntad divina, a las leyes religiosas, a las leyes de la naturaleza.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Quod nōn est fās, quod dīvīnīs praeceptīs, atque adeō nātūrae lēgibus contrārium est,
                 scelus, nefandum facinus, flāgitium, impietās.
@@ -4642,10 +4636,10 @@
             <span class="ts-author">
                 Forcellini
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -4658,18 +4652,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_nondum">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Nōndum
@@ -4680,12 +4674,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Todavía no.
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -4700,16 +4694,16 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_nosco">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Noscō, noscis, nōvī, nōtum, noscĕre
@@ -4717,10 +4711,10 @@
             <span class="vc-morphosintaxis">
                 > nôtus, -a, um part. y adj.; nôtî, -ôrum m. pl.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Concer. Apunta al proceso antes que al conocimiento intelectual.<br>
             - En los tiempos derivados del tema del presente indica el proceso
             de llegar a conocer en curso, como ser, familirizarse con algo.<br>
@@ -4729,21 +4723,21 @@
             pluscuamperfecto el valor de perfecto.<br>
             El verbo <span class="ts-latin">sciō</span> denota el conocimiento intelectual.<br>
 
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Speciatim Nôtî, ôrum, sunt amîcî, domesticî, vîcînî, familiâres, quî nôbîs nôtî sunt, nôsque novêrunt.
             </span>
             <span class="ts-author">
                 Forcellini.
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -4756,18 +4750,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_noverca">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Noverca, -ae
@@ -4775,15 +4769,15 @@
             <span class="vc-morphosintaxis">
                 f.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Madrastra.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -4793,33 +4787,33 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_obruo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Obruō, obruis, obruī, obrutum, obruĕre
             </span>
         </div>
 
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w">
             Cubrir de tierra, soterrar, enterrar. Sepultar. <br>
             También cubrir de algo delgado y suave, agua o nieve; abrumar, encubrir, aplastar;
             enterrar en olvido; caer en ruinas, colapsar.<br>
             En la biblia muy frecuente: <span class="ts-latin">lapidibus obruere</span> : lapidar.
-        </div> <!--v class="vc-use" -->
+        </div> <!--v class="ly-vc-h vc-use" -->
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Est operīre, tegēre, sepelīre [...]
                 Hisp. <span class="ts-latin-emph">cubrir, ahondar, exterrar, sepultar;</span>
@@ -4827,10 +4821,10 @@
             <span class="ts-author">
                 Forcellini
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- EJEMPLOS DE LAS FUENTES-->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En las fuentes:
             <ul class="vc-examples-ul">
                 <li>
@@ -4840,10 +4834,10 @@
                     <span class="ts-author">Cicerón</span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -4864,10 +4858,10 @@
                 </li>
 
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
     <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
 
                 <li>
@@ -4903,18 +4897,18 @@
                 </li>
 
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_ops">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Ops, opis
@@ -4925,12 +4919,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             En plural, recursos, riqueza, bienes.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
 
@@ -4952,18 +4946,18 @@
                     </spa>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_otium">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Ōtium, -iī
@@ -4974,7 +4968,7 @@
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Ōtium est vacuum tempus, cessatiō ab opere, remissiō labōris, laxāmentum,
                 tempus līberum atque ōtiōsum: cui contrārium est negōtium. [...]
@@ -4989,57 +4983,57 @@
             </span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_patulus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Patulus, -a, -um
             </span>
         </div>
 
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w">
             Abierto. Extendido.
-        </div> <!--v class="vc-use" -->
+        </div> <!--v class="ly-vc-h vc-use" -->
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_pendeo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Pendeō, pendēs, pependī, passive, pendēre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Colgar, estar colgado.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_perago">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Peragō, peragis, perēgī, perāctum, peragĕre
@@ -5047,7 +5041,7 @@
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Perficiō, perpetrō.
             </span>
@@ -5056,16 +5050,16 @@
             </span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_peregrinus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Peregrīnus, -a, -um
@@ -5073,25 +5067,25 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Extranjero. Extraño.
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Advena, hospĕs, externus, aliēnus.</span>&nbsp—
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_pinus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Pīnus, -ūs
@@ -5102,7 +5096,7 @@
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Aptissimam pīnus praebet māteriam cōnstruendīs nāvibus:
                 unde per synecdochen prō nāvī ponitur.
@@ -5112,16 +5106,16 @@
             </span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_poena">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Poena, -ae
@@ -5132,13 +5126,13 @@
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Supplicium, animadversiō, mulcta; damnum, incommodum.</span>&nbsp—
             <span class="ts-latin">Deus gravēs poenās dē perjūrīs sūmet.</span>&nbsp—
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -5154,23 +5148,23 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
 
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- ENTRY -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_posco">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Poscō, poscis, poposcī, —, poscĕre
@@ -5178,22 +5172,22 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Verbo de exigencia fundada en derecho, autoridad o justicia. Pedir con insistencia, reclamar, exigir algo.
             Implica que el hablante considera que el destinatario no debería negarse.
             Se distingue de <span class="ts-latin">petō</span>, solicitar,
             y <span class="ts-latin">rogō</span>, rogar, etc.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- USO -->
-        <div class="vc-use">
+        <div class="ly-vc-h vc-use">
             <span class="ts-latin">Poscere aliquid ab aliquō.</span>&nbsp—
             <span class="ts-latin">Trībūtum, poenam, dēbitum poscere.</span>&nbsp—
             <span class="ts-latin">Poscere ut venias.</span>&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Poscere est petere aliquid tamquam sibi jūre dēbitum,
                 suum jūs petere, petere, requīrēre, postulāre, flāitāre, [...]
@@ -5205,7 +5199,7 @@
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -5223,16 +5217,16 @@
 
 <!-- Sī antequam fata poscant indemnātum spīritum effūderis = si antes de que el destino reclame tu alma sin sentencia -->
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_praeceps">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Praeceps, -ipitis
@@ -5243,15 +5237,15 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Empinado, escarpado.
             Se dice de un lugar elevado, muy inclinado, escarpado,
             y desde el cual cualquiera puede caer al precipicio con facilidad.
             <span class="ts-latin">Praeceps</span>: acusativo.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-multiple-definitions">
+        <div class="ly-vc-h vc-multiple-definitions">
             <ul class="vc-multiple-definitions-ul">
                 <li>
                     <span class="ts-latin">
@@ -5274,29 +5268,29 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!--CARD-->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_premo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Premō, premis, pressī, pressum, premĕre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Aplicar presión sobre algo. Apretar, oprimir.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -5309,18 +5303,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- class="vc-containter" -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_prodeo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Prōdeō, prōdī, prōdiī / prōdīvī, prōditum, prōdīre
@@ -5328,15 +5322,15 @@
             <span class="vc-morphosintaxis">
                 irr.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Aparecer, mostrarse. b. Avanzar. c. Nacer, brotar.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Prōdeō est in apertum eō, exeō, exsistō: ā prō et eō, is, īnsertō, ad hiātum explendum;  [...]
                 Hisp.
@@ -5346,18 +5340,18 @@
             </span>
             <span class="ts-author">
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_proles">
             <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Prōlēs, -is
@@ -5365,24 +5359,24 @@
             <span class="vc-morphosintaxis">
                 f.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Estirpe, raza. Descendencia, posteridad.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Prōgeniēs, sobolēs, līberī [...]
             Hisp. <span class="ts-latin-emph">hijo, descendencia, posteridad, descendiente;</span>
             </span>
             <span class="ts-author"></span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -5404,37 +5398,37 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- class="vc-containter" -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_promptus">
             <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Prōmptus, -a, -um
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Dispuesto, pronto, presto, listo, inclinado.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- USO -->
-        <div class="vc-use">
+        <div class="ly-vc-h vc-use">
             <span class="ts-latin">Homō prōmptus: parātus ad agendum.</span>&nbsp;—
             <span class="ts-latin">Prōmptus ad vim.</span>&nbsp;—
             <span class="ts-latin">Semper prōmptus est Dominus ad nōs iuvandum.</span>&nbsp;—
-        </div> <!--v class="vc-use" -->
+        </div> <!--v class="ly-vc-h vc-use" -->
 
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
                 <span class="ts-latin">
                     Dīcitur quī jam parātus est ad agendum et in quō nūlla mōra est,
                     expeditus, alacer, ardēns.
@@ -5443,10 +5437,10 @@
             <span class="ts-author">
                 Calepino
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -5459,10 +5453,10 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -5470,18 +5464,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- class="vc-containter" -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_protinus">
             <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Prōtinus
@@ -5489,15 +5483,15 @@
             <span class="vc-morphosintaxis">
                 adv. no comp.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Inmediatamente, a continuación. Pronto
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -5509,10 +5503,10 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -5526,18 +5520,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- class="vc-containter" -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_raptus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Raptus, -ūs
@@ -5545,15 +5539,15 @@
             <span class="vc-morphosintaxis">
                  m.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Rapiña.
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Generatim est actus rapiendī et per vim trahendī.</span>
             <span class="ts-author">
@@ -5562,7 +5556,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -5570,18 +5564,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_rastrum">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Rāstrum, -ī
@@ -5592,17 +5586,17 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Rastrillo.
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Īnstrūmentum dentātum glēbīs confrigendis idōneum.</span>&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Īnstrūmentum rūsticum dentātum, ferreum plērumque, interdum ligneum.
             </span>
@@ -5611,29 +5605,29 @@
             </span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_recondo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Recondō, recondis, recondidī, reconditum, recondĕre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Guardar, disimular, esconder.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -5645,10 +5639,10 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -5661,18 +5655,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!--CARD-->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_relinquo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Relinquō, relinquis, relīquī, relictum, relinquĕre
@@ -5683,12 +5677,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Dejar alejándose. Dejar detrás de sí.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- USO -->
-        <div class="vc-use">
+        <div class="ly-vc-h vc-use">
             <span class="ts-latin">Dēserō, dīmittō.</span>&nbsp;—
             <span class="ts-latin">Mīlitēs urbem relinquunt.
                 =  Mīlitēs nōn iam urbem custōdiunt, sed exeunt aut discēdunt.</span>&nbsp;—
@@ -5697,7 +5691,7 @@
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En las fuentes:
             <ul class="vc-examples-ul">
                 <li>
@@ -5709,24 +5703,41 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-single-note">
-            <span class="ts-english">To leave behind, not take along,
-            not stay with, leave, move away from, quit, abandon</span>
-        </div> <!-- class="vc-multiple-notes" -->
+        <div class="ly-vc-h vc-multiple-notes">
+            <ul class="vc-multiple-notes-ul">
+                <li>
+                    <span class="ts-english">
+                        To leave behind, not take along,
+                        not stay with, leave, move away from, quit, abandon
+                    </span>
+                </li>
+            </ul>
+        </div>
 
-    </div> <!-- class="vc-containter" -->
+        <!-- EN LOS TEXTOS -->
+        <div class="ly-vc-h vc-in-texts">
+            <ul class="vc-in-texts-ul">
+                <li>
+                    <span class="ts-latin">Numitôrî, quî nâtû major erat, rêgnum reliquit</span>;
+                </li>
+            </ul>
+        </div>
+
+
+
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_rubeta">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Rubēta, -ārum
@@ -5737,20 +5748,20 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Zarzal.
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_sata">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Sata, -ōrum
@@ -5761,30 +5772,30 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Siembra, cosecha. Los sembrados, las mieses. Simientes, semillas.
             Ver v. <a href="#id_sero" class="hlink">serō</a>
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">Things sown or planted; grain, growing grain; crop.</span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_sero">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Serō, seris, sēvī, satum, serĕre
@@ -5792,13 +5803,13 @@
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">
                 Sēmentem faciō, sēmen spargō, sēminō.</span>&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Actus serendī, sēminātiō, plantātiō.
             </span>
@@ -5806,7 +5817,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -5830,16 +5841,16 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_saevus">
             <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Saevus, -a, -um
@@ -5847,12 +5858,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Cruel, inhumano, furioso, salvaje.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -5865,18 +5876,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_saturnus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Sāturnus, -ī
@@ -5887,21 +5898,21 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Dios romano de la agricultura, las estaciones y el tiempo de la mitología romana.
             Asimilado al dios griego Crono, padre de Zeus, y a veces a Chronos, dios del tiempo.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_saucius">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Saucius, -ia, -ium
@@ -5909,12 +5920,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Herido. Enfermo.
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Mīlēs gradiō et sagittā saucius.</span>&nbsp—
             <span class="ts-latin">Mēdēa amōre saucia.</span>&nbsp—
             <span class="ts-latin">Sauciī mīlitēs allātī sunt e pūgnā ad castra, ut cūrārentur.</span>&nbsp—
@@ -5922,7 +5933,7 @@
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En las fuentes:
             <ul class="vc-examples-ul">
                 <li>
@@ -5933,16 +5944,16 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_scelero">
             <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Scelerō, scelerās, scelerāvī, scelerātum, scelerāre
@@ -5950,17 +5961,17 @@
             <span class="vc-morphosintaxis">
                 > scelerātus, -a, -ī pron. y adj.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Profanar, contaminar, ensuciar.
             Como adjetivo: criminal, impío, infame (manchado por el propio crimen)
             Cf. <span class="ts-latin">scelus</span>: crimen, acción perversa, atroz o impía.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Est scelere polluō, contāminō. [...]
                 Inter «scelerātum», et «scelestum», et «scelerōsum» hoc interest,
@@ -5968,10 +5979,10 @@
                 scelestus, scelerum cogitātor:
                 scelerōsus quasi īnsidiōsus<span class="ts-sup"><b>(&alpha;)</b></span>.</span>
             <span class="ts-author">Forcellini</span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -5984,7 +5995,7 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
         <!-- TRADUCCIONES -->
         <div class="vc-translations">
@@ -6004,16 +6015,16 @@
             </ol>
         </div> <!-- vclass="vc-translations"> -->
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_securus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Sēcūrus, -a, -um
@@ -6021,33 +6032,33 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Tranquilo de ánimo, subjetivamente seguro.
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Tranquillus, cūrā et ānxietāte vacāns, sine cūrā.</span>&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">Sēcūrus est generātim vacuus cūrā, quī est sine cūrā. [...]
             Quī sine cūrā, h. e. timōre vel sollicitūdine est et sē tūtum putat,
             quī tranquillō est animō et quiētō.</span>
             <span class="ts-author">Forcellini</span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_seges">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Seges, -etis
@@ -6055,15 +6066,15 @@
             <span class="vc-morphosintaxis">
                 f.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Campo sembrado o sin sembrar.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Segēs dīcitur ac pars agrī, quae arāta et cōnsita est: ā serendō vidēlicet. [...]
                 Segēs sunt frūgēs nōndum dēmessae, vel antequam in areā terantur,
@@ -6072,18 +6083,18 @@
             <span class="ts-author">
                 Forcellini
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- ENTRY -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_siccus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Siccus, -a, -um
@@ -6091,12 +6102,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Sediento. Seco
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Siccus est hūmōre carēns, aridus [...]
                 Hisp. <span class="ts-spanish">seco.</span> [...]
@@ -6107,37 +6118,37 @@
             </span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_signo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Signō, signō, signāvī, signātum, signāre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Marcar, señalar.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_stillo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Stillō, stillās, stillāvī, stillātum, stillāre
@@ -6145,24 +6156,24 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Gotear.
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Stīllō, guttātim fluō, per stillās cadō.</span>&nbsp—
             <span class="ts-latin">Stīllantem sanguine pūgiōnem prōtulit<span class="ts-sup"><b>(&alpha;)</b><span>.</span>&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">Stillō est stillātim hūmōrem ēmittō aut īnfundō.</span>
             <span class="ts-author">Forcellini</span>
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -6173,13 +6184,13 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">To fall in drops.</span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
         <!-- TRADUCCIONES -->
         <div class="vc-translations">
@@ -6191,53 +6202,53 @@
             </ol>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_sto">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Stō, stās, stetī, statum, stāre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Levantarse, estar ergido.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_stygius">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Stygius, -a, -um
             </span>
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Relativo a el rio Estigia, <span class="ts-latin">Styx</span>:
             río del inframundo, límite entre la tierra y el nundo de los muertos,
             que se debía cruzar en la barca de Caronte.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- MORFOLOGIA -->
-        <div class="vc-morfology">
+        <div class="ly-vc-h vc-morphology">
             Declinación de <span class="ts-latin">Styx, Stygos / Stygis</span>
             Nom., Voc.: <span class="ts-latin">Styx.</span>
             Ac.: <span class="ts-latin">Styga, Stygem</span>
@@ -6247,7 +6258,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -6255,58 +6266,58 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_subeo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Subeō, subīs, subiī / subīvī, subitum, subīre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Aparecer, sobrevenir.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_succedo">
             <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Succēdō, succēdis, successī, successum, succēdĕre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Suceder, llegar en sustitución de, llegar después de.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- USO -->
-        <div class="vc-use">
+        <div class="ly-vc-h vc-use">
             <span class="ts-latin">
                 Tiberius Augustō successit.</span>&nbsp;—
-        </div> <!--v class="vc-use" -->
+        </div> <!--v class="ly-vc-h vc-use" -->
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -6319,10 +6330,10 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -6334,18 +6345,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_sulcus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Sulcus, -ī
@@ -6353,15 +6364,15 @@
             <span class="vc-morphosintaxis">
                 m.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Surco.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -6374,18 +6385,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_tellus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Tellūs, -ūris
@@ -6396,17 +6407,17 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Tierra, suelo. Diosa Tellūs.
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Tellūs est terra, orbis terrārum, planēta noster.</span>&nbsp—
         </div>
 
         <!-- DEFINICIONES -->
-        <div class="vc-multiple-definitions">
+        <div class="ly-vc-h vc-multiple-definitions">
             <ul class="vc-multiple-definitions-ul">
                 <li>
                     <span class="ts-latin">Terrae dea. Nōn rārō tamen tellūrem per istā accipimus terrā.</span>
@@ -6421,16 +6432,16 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_tepeo">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Tepeō, tepēs, tepuī, —, tepēre
@@ -6438,12 +6449,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Estar cálido, tibio.
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             <span class="ts-latin">Ex Ovidiō nostrō:</span>
             <ul class="vc-examples-ul">
                 <li>
@@ -6457,32 +6468,32 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_tutus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Tūtus, -a, -um
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Seguro, protegido.
             Se enfoca en la seguridad como algo objetivo,
             mientras <span class="ts-latin">sēcūrus</span> apunta al hecho psicológico:
             sentirse seguro.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-japanese">
@@ -6493,18 +6504,18 @@
 
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_ullus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Ūllus, -a, -um
@@ -6512,34 +6523,34 @@
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">Adiectīvum prōnōmināle: ad minimum ūnus.</span>
             <span class="ts-author">Victionarium</span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_uro">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Ūrō, ūris, ussī, ustum, ūrĕre
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Quemar, abrazar, incendiar.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-latin">
@@ -6552,18 +6563,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_velum">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Vēlum, -i
@@ -6571,23 +6582,23 @@
             <span class="vc-morphosintaxis">
                 n.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             En plural, velas de embarcación.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_vena">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Vēna, -ae
@@ -6595,20 +6606,20 @@
             <span class="vc-morphosintaxis">
                 f.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 Dē intimā parte cujusque reī.
             </span>
             <span class="ts-author">
                  Forcellini
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-english">
@@ -6616,18 +6627,18 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_ver">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Vēr, vēris
@@ -6638,7 +6649,7 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                     <span class="ts-japanese">
@@ -6654,18 +6665,18 @@
                     En primavera florecen los cerezos.
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_verum">
                <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Vērum, -ī
@@ -6673,23 +6684,23 @@
             <span class="vc-morphosintaxis">
                 n.
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Lo verdadero, la verdad, lo real.
-        </div> <!--v class="vc-info" -->
+        </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_vinctus">
 <!--COMPLETAR COMPLETAR COMPLETAR            -->
                 Vinciō, vincīs, vīnxī, vīnctum, vincīre
@@ -6697,15 +6708,15 @@
             <span class="vc-morphosintaxis">
                 > vinctus, -a, -um
             </span>
-        </div> <!-- class="vc-entry" -->
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Atar, encadenar.
-        </div> <!--v class="vc-info" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -6719,20 +6730,19 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
 
-
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_vindex">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Vindex, -icis
@@ -6743,19 +6753,18 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Vengador. Defensor.
-
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Ultor.</span>&nbsp—
             <span class="ts-latin">Brūtus vindex lībertātis.</span>&nbsp—
         </div>
 
         <!-- DEFINICIONES -->
-        <div class="vc-multiple-definitions">
+        <div class="ly-vc-h vc-multiple-definitions">
             <ul class="vc-multiple-definitions-ul">
                 <li>
                     <span class="ts-latin">Propriē, ultor injūriae. [...]
@@ -6772,7 +6781,7 @@
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -6782,16 +6791,16 @@
             </ul>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_viso">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Vīsō, vīsis, vīsī, vīsum, vīsĕre
@@ -6799,12 +6808,12 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Visitar. Mirar atentamente.
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Invīsō, visitō, officiī causā adeō, conveniō, accedō,
             salūtātem loveniō.</span>&nbsp—
             <span class="ts-latin">Cōnstituī ad tē venīre, et visere, et coenāre tēcum.</span>&nbsp—
@@ -6812,22 +6821,22 @@
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">Vīsō est saepe videō, spectō, īnspiciō. [...]
                 Lātiōre sēnsū saepe est venīre ad videndum, invīsēre.</span>
             <span class="ts-author">Forcellini</span>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_vomer">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Vōmer, -eris
@@ -6838,24 +6847,24 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Reja de arado.
         </div>
 
         <!-- USO -->
-        <div class="vc-use" >
+        <div class="ly-vc-h vc-use" >
             <span class="ts-latin">Vōmer est pars arātrī quae sulcum aperit, ut sēmina sererentur.</span>&nbsp—
             <span class="ts-latin">Vōmere terram perstringere, scindere.</span>&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">Ferrum in extrēmō arātrō.</span>
             <span class="ts-author">Wagner.</span>
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En las fuentes:
             <ul class="vc-examples-ul">
                 <li>
@@ -6868,7 +6877,7 @@
         </div>
 
         <!-- EJEMPLOS -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -6880,13 +6889,13 @@
         </div>
 
         <!-- NOTAS MÚLTIPLES -->
-        <div class="vc-multiple-notes">
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
                      <span class="ts-english">Plougshare</span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
 
         <!-- TRADUCCIONES -->
         <div class="vc-translations">
@@ -6903,16 +6912,16 @@
             </ol>
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <div class="vc-containter">
+    <section class="ly-section-containter">
 
         <hr> <!-- CARD -->
 
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_zephyrus">
                 <!--<span style="color:rgb(0,0,128);">&#10003;</span>-->
                 Zephyrus, -ī
@@ -6923,19 +6932,19 @@
         </div>
 
         <!-- INFO -->
-        <div class="vc-info">
+        <div class="ly-vc-h ly-vc-w vc-info">
             Céfiro.
         </div>
 
-    </div> <!-- <div class="vc-containter"> -->
+    </section> <!-- <class="ly-section-containter"> -->
 
-</div>
+</main> <!-- class="ly-main-container" -->
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <!--                                             FUENTES Y RECURSOS                                                  -->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-<div class="ly-container-document">
+<main class="ly-main-container">
 
     <h2 class="ts-section-title" id="id_index_fuentes_y_recursos">Fuentes y recursos</h2>
 
@@ -7067,7 +7076,7 @@
 
     </div> <!-- <div class="vc-containter"> -->
 
-</div> <!--class="ly-container-document">-->
+</main> <!-- class="ly-main-container" -->
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <!--                                               MALVINAS                                                          -->
