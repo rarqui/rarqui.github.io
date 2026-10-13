@@ -1,54 +1,77 @@
-***/*
+/*
 
     ĀāĒēĪīŌōŪū
     ĂăĔĕĬĭŎŏŬŭȲȳ
 
+    Cada bloque dentro de la página:
+
+        <div class="ly-container-document">
+        ...
+        </div> <!-- class="ly-container-document" -->
+
+    Dentro de cada bloque, puede haber: INTRO, TEXTOS, NOTAS GENERALES, VOCABULARIO, RECURSOS
+
+    A. INTRO
+
+
+    B. Notas
+
+
+    C. VOCABULARIO
+
+    LEMA, EXPRESIÓN, INFO, MORFOLOGÍA, ETIMOLOGÍA, USO, DEFINCIÓN UNICA, DEFINICIONES MÚLTIPLES, EJEMPLOS DE LAS
+    FUNTES, EJEMPLOS DE LA VULGATA SIXTO CLEMENTINA, NOTA ÚNICA, NOTAS MÚLTIPLES, EN LOS TEXTOS, TRADUCCIONES
+
+Cada bloque dentro de la página:
+
+
     <div class="vc-containter">
+    <section class="ly-section-document">
 
         <hr> <!-- CARD -->        
     
         <!-- LEMA -->
-        <div class="vc-entry">
+        <div class="ly-vc-h">
             <span class="vc-lema" id="">
             </span>
             <span class="vc-morphosintaxis">
             </span>
         </div>
 
-        <!-- EXPRESIÓN -->            
-        <div class="vc-expresion" id="">
-        </div> <!-- class="vc-expresion" -->
+        <!-- EXPRESIÓN -->
+        <div class="ly-vc-h vc-expresion" id="">
+        </div>
 
         <!-- INFO -->
-        <div class="vc-info">
-        </div> <!--v class="vc-info" -->
+        <div class="ly-vc-h ly-vc-w vc-info">
+        </div>
 
         <!-- MORFOLOGIA -->
-        <div class="vc-morfology">
+        <div class="ly-vc-h morphology">
             <span class="ts-latin"></span>
         </div>
 
         <!-- ETIMOLOGÍA -->                
-        <div class="vc-etimology">
+        <div class="ly-vc-h vc-etimology">
         </div>
         
         <!-- USO -->                
-        <div class="vc-use">
+        <div class="ly-vc-h vc-use">
             <span class="ts-latin"></span><span class="ts-sup"><b>(&alpha;)</b></span>&nbsp;—
-        </div> <!--v class="vc-use" -->
+        </div>
 
         <!-- DEFINICIÓN ÚNICA-->        
-        <div class="vc-single-definition">
+        <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
                 <span class="ts-sup"><b>(&alpha;)</b></span>
                 <span class="ts-latin-emph"></span>
             </span>
             <span class="ts-author">
             </span>
-        </div> <!-- class="vc-single-definition" -->
+        </div>
 
         <!-- DEFINICIONES MÚLTIPLES -->
-        <div class="vc-multiple-definitions">
+        <div class="ly-vc-h vc-multiple-definitions">
             <ul class="vc-multiple-definitions-ul">
                 <li>
                     <span class="ts-latin">
@@ -59,10 +82,10 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-definitions" -->
+        </div>
         
         <!-- EJEMPLOS DE LAS FUENTES-->        
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En las fuentes:
             <ul class="vc-examples-ul">
                 <li>
@@ -71,10 +94,10 @@
                     <span class="ts-author"></span>                     
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
-        <div class="vc-examples">
+        <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
             <ul class="vc-examples-ul">
                 <li>
@@ -86,27 +109,39 @@
                     </span>
                 </li>
             </ul>
-        </div> <!-- class="vc-examples" -->
+        </div>
 
         <!-- NOTA ÚNICA -->
-        <div class="vc-single-note">
+        <div class="ly-vc-h vc-single-note">
              <span class="ts-latin"></span>
              <span class="ts-english"></span>        
-        </div> <!-- class="vc-single-note" -->
-        
-        <!-- NOTAS MÚLTIPLES -->        
-        <div class="vc-multiple-notes">
+        </div>
+
+
+        <!-- NOTAS MÚLTIPLES -->
+        <div class="ly-vc-h vc-multiple-notes">
             <ul class="vc-multiple-notes-ul">
                 <li>
-                    <span class="ts-latin"></span>
-                    <span class="ts-english"></span>
+                    <span class="ts-latin">
+                    </span>
+                    <span class="ts-english">
+                    </span>
                     <span class="ts-japanese">
                         <ruby><rt></rt></ruby>
                     </span>
                     <span class="ts-japanese"><i>文言文</i></span>
                 </li>
             </ul>
-        </div> <!-- class="vc-multiple-notes" -->
+        </div>
+
+        <!-- EN LOS TEXTOS -->
+        <div class="ly-vc-h vc-in-texts">
+            <ul class="vc-in-texts-ul">
+                <li>
+                    <span class="ts-latin">
+                </li>
+            </ul>
+        </div>
 
         <!-- TRADUCCIONES -->
         <div class="vc-translations">
@@ -115,20 +150,7 @@
                 <li>
                 </li>
             </ol>
-        </div> <!-- vclass="vc-translations"> -->
-
-        <!-- - - - - - - - - - - - - - -  - - - - - - - - -->
-
-        <!-- NOTAS GENERALES -->
-        <div class="vc-general-notes">
-            <ol class="vc-general-notes-ol">
-                <div class="vc-general-notes-line"></div> <!-- La línea inicial -->
-                    <li>
-                    </li>
-                </div>
-           </ol>
-        </div> <!-- class="vc-general-notes"> -->
-
+        </div>
 
         <!-- ITEMS DISC -->
         <div class="vc-items-disc">
@@ -140,13 +162,14 @@
                     <span class="ts-japanese"><ruby><rt></rt></ruby></span>
                 </li>
             </ul>
-        </div> <!-- class="vc-items-disc" -->
+        </div>
         
         <span styLe="color:red">&#9679;</span> <!-- <<<<<<<<<< -->
         <span styLe="color:green">&#9679;</span> <!-- <<<<<<<<<< -->
 
 
-    </div> <!-- class="vc-containter" -->
+    </section> <!-- class="ly-section-document" -->
+
 */
 
     :root {
@@ -154,24 +177,51 @@
         --vc-margin-bottom : 0.55rem;
    }
 
-/* TIPO DE ENTRADA Y NOTAS MORFOSINTÁCTICAS */
 
-    .vc-containter{
-        margin-top          : 1.5rem;
-        margin-bottom       : 1rem;
+/*  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////  */
+/*                                               NOTAS GENERALES                                                      */
+/*  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////  */
+
+
+    .vc-general-notes{
+        margin-top:    var(--vc-margin-top);
+        margin-bottom: var(--vc-margin-bottom);
     }
-    
-   
+
+    .vc-general-notes-line-line{
+        width               : 200px;    /* Longitud de la línea */
+        height              : 1px;      /* Grosor */
+        background-color    : #555;     /* Color */
+        margin              : 20px;     /* Espacio arriba/abajo + centrado */
+        /* border-radius: 1px;  /* Bordes ligeramente redondeados, opcional */
+    }
+
+
+    .vc-general-notes-ol{
+        margin-top          : .0rem;
+        margin-bottom       : .0rem;
+        list-style-type     : decimal;
+    }
+
+
+/*  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////  */
+/*                                                     VOCABULARY                                                     */
+/*  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////  */
+
+    .ly-vc-h{
+        margin-top          : var(--vc-margin-top);
+        margin-bottom       : var(--vc-margin-bottom);
+    }
+
+    /* a borrar */
     .vc-entry{
         margin-top          : var(--vc-margin-top);
         margin-bottom       : var(--vc-margin-bottom);
-        margin              : 0;
+        background-color    : red;
     }
 
 
-    /* INFO  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
-
+/* LEMA - EXPRESION - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
     .vc-lema{
         font-family         : "Cinzel", serif;
@@ -195,7 +245,7 @@
     }
     
 
-    .vc-expresion{
+    .vc-expression{
         font-family         :"Cinzel", serif;
         font-variant        : small-caps;
         font-style          : italic;
@@ -204,47 +254,48 @@
         color               : var(--ancient-red)
     }
 
-
 /* INFO - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
-    .vc-info{
-        margin-top          : var(--vc-margin-top);
-        margin-bottom       : var(--vc-margin-bottom);
+    .ly-vc-w{
         margin-left         : 3em;
         margin-right        : 3em;
     }
 
+    .vc-info{
+    }
+
+    /* a borrar */
     .vc-info::first-letter {
         font-weight         : bold;
         color               : var(--ancient-red)
+
     }
 
 /* ETIMOLOGY  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-    .vc-etimology{
+
+/*    .vc-etimology{
         margin-top          : var(--vc-margin-top);
         margin-bottom       : var(--vc-margin-bottom);
         font-family         : var(--font-sf);
         font-weight         : bold;
         line-height         : 1.5;
         color               : black;
-    }        
+        background-color    : orange;
+    }        */
 
     
 /* MORFOLOGÍA - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */           
     
-    .vc-morfology{
-        margin-top          : var(--vc-margin-top);
-        margin-bottom       : var(--vc-margin-bottom);
+    .vc-morphology{
     }    
 
 
 /* USO  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */       
 
+
     .vc-use{
         font-style          : italic;
-        margin-top          : var(--vc-margin-top);
-        margin-bottom       : var(--vc-margin-bottom);
     }
 
     .vc-use::first-letter {
@@ -255,8 +306,6 @@
 /* DEFINICIONES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */    
     
     .vc-single-definition{
-        margin-top          : var(--vc-margin-top);
-        margin-bottom       : var(--vc-margin-bottom);
     }
 
     .vc-single-definition::before{
@@ -265,9 +314,8 @@
         font-style          : italic;
         color               : var(--black-1);
     }
+
     .vc-multiple-definitions{
-        margin-top          : var(--vc-margin-top);
-        margin-bottom       : var(--vc-margin-bottom);
     }
     
     .vc-multiple-definitions::before{
@@ -286,8 +334,6 @@
 /* EJEMPLOS - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */    
 
     .vc-examples{
-        margin-top          : var(--vc-margin-top);
-        margin-bottom       : var(--vc-margin-bottom);
         font-weight         : bold;
         font-style          : italic;
         color               : var(--black-1);        
@@ -303,26 +349,10 @@
         color               : var(--text-main);                 
     }
 
-/* "aditional definitions: a eliminar" */
 
-    .vc-aditional-definition{
-        margin-top          :    var(--vc-margin-top);
-        margin-bottom       : var(--vc-margin-bottom);
-        color               : orange;
-    }
-    
-    .vc-aditional-definition::before{
-        content             :"N.: " ;       
-        font-weight         : bold;
-        font-style          : italic;
-        color               : orange;
-    }
-
-/* NOTAS  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */    
+/* SINGLE NOTES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
     .vc-single-note{
-        margin-top:    var(--vc-margin-top);
-        margin-bottom: var(--vc-margin-bottom);
     }
 
     .vc-single-note::before{
@@ -332,29 +362,29 @@
         color               : var(--black-1);
     }
 
-    .vc-notes{                  
+/*    .vc-notes{
         margin-top:    var(--vc-margin-top);
         margin-bottom: var(--vc-margin-bottom);
     }
-    
+
     .vc-notes::before{
-        content             :"Notas: " ;       
+        content             :"Notas: " ;
         font-weight         : bold;
         font-style          : italic;
         color               : var(--black-1);
-        color               : orange;        
+        color               : orange;
     }
 
     .vc-notes-ul {
          margin-top         : .0rem;
          margin-bottom      : .0rem;
-         list-style-type    : disc; /*circle, square, none */
-    }
-    
-    
+         list-style-type    : disc;
+    }*/
+
+
+/* MULTIPLE NOTES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
     .vc-multiple-notes{
-        margin-top:    var(--vc-margin-top);
-        margin-bottom: var(--vc-margin-bottom);
     }
     
     .vc-multiple-notes::before{
@@ -377,28 +407,58 @@
         list-style-type     : decimal;
     }
 
-/* NOTAS GENERALES  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+    /* EN LOS TEXTOS  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-
-    .vc-general-notes{
-        margin-top:    var(--vc-margin-top);
-        margin-bottom: var(--vc-margin-bottom);
+    .vc-in-texts{
     }
 
-    .vc-general-notes-line-line{
-        width               : 200px;    /* Longitud de la línea */
-        height              : 1px;      /* Grosor */
-        background-color    : #555;     /* Color */
-        margin              : 20px;     /* Espacio arriba/abajo + centrado */
-        /* border-radius: 1px;  /* Bordes ligeramente redondeados, opcional */
+    .vc-in-texts::before{
+        content             :"En los textos: " ;
+        font-weight         : bold;
+        font-style          : italic;
+        color               : var(--black-1);
     }
 
+    .vc-in-texts-ul {
+        margin-top         : .0rem;
+        margin-bottom      : .0rem;
+        list-style-type    : disc; /*circle, square, none */
+    }
 
-    .vc-general-notes-ol{
+    .vc-in-texts-ol{
         margin-top          : .0rem;
         margin-bottom       : .0rem;
         list-style-type     : decimal;
     }
+
+
+/* TEXTOS  - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+    .vc-texts{
+        margin-top:    var(--vc-margin-top);
+        margin-bottom: var(--vc-margin-bottom);
+    }
+
+    .vc-texts::before{
+        content             :"En los textos: " ;
+        font-weight         : bold;
+        font-style          : italic;
+        color               : orange;
+    }
+
+
+    .vc-texts-ul {
+        margin-top         : .0rem;
+        margin-bottom      : .0rem;
+        list-style-type    : disc; /*circle, square, none */
+    }
+
+    .vc-texts-ol{
+        margin-top          : .0rem;
+        margin-bottom       : .0rem;
+        list-style-type     : decimal;
+    }
+
 
 
 /* TRANSLATIONS   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */    
@@ -473,6 +533,5 @@
         color: var(--muted);
         font-size: 0.9rem;
     }
-
 
 /* &#x2713 */
