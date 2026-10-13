@@ -1,0 +1,52 @@
+
+
+    .tl-document {
+        font-family: var(--font-title); /*"Cinzel", serif;*/
+        font-weight:600;
+        font-size: 2.4rem;
+        margin: 0;
+        color: var(--ancient-red);
+        letter-spacing: 2px;
+     }   
+
+
+     .tl-document-sub {
+         font-family: var(--font-title); /*"Cinzel", serif;*/
+         font-weight:500;
+         font-size: 2.0rem;
+         margin: 0;
+         color: var(--ancient-red);
+         letter-spacing: 2px;
+     }
+
+     .tl-document-author {
+         font-family: var(--font-title); /*"Cinzel", serif;*/
+         font-weight:400;
+         font-size: 1.6rem;
+         margin: 0;
+         color: var(--text-main);
+         letter-spacing: 2px;
+     }
+
+     .tl-main {
+         text-align      : center;
+         font-family     : var(--font-title);
+         font-weight     : 700;
+         letter-spacing  : .07rem;
+         margin-bottom   : 1.5em
+     }
+
+     /* A BORRAR */
+    .tl-section-1 {
+        font-size: 1.4rem;
+        margin: 0;
+        color: var(--text-main);
+        letter-spacing: 2px;
+    }
+        
+    .title-subsection-1 {
+        font-size: 1rem;
+        margin: 0;
+        color: var(--text-main);
+        letter-spacing: 2px;
+    }
