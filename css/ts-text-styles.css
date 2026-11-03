@@ -107,6 +107,11 @@
     .ts-latin-emph {
         font-style      : normal;
     }    
+
+    .ts-latin-unknow {
+          font-style      : normal;
+          color           : var(--ancient-red);
+    }
     
 
     .ts-english {
