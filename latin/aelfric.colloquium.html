@@ -11,10 +11,10 @@
 
     ĂăĔĕĬĭŎŏŬŭ
 
-id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus id_amnis id_anguilla id_anilis id_aper id_appono id_arator id_armilla id_assigno id_auceps id_audeo id_augeo id_oricalcum id_ausculto id_avolo id_bubulcus id_butyrum id_calceamentum id_cancer id_capreus id_caulae id_cellarium id_cervisia id_cetus id_coquus id_concino id_consiliarius id_culter id_custos id_cutis id_damma id_decipula id_dego id_delphinus id_dimitto id_disiungo id_domito id_ebur id_edax id_effundo id_egredior id_emo id_erro id_eruditor id_esca id_exerceo id_expello id_faba id_faenum id_ferrarius id_fimum id_flasco id_foras id_formidolosus id_frenum id_fur id_glutino id_glutto id_gymnasium id_hamus id_hiemo id_holus id_hospitor id_hypocrisis id_iactura id_ictus id_idiota id_illic id_impleo id_incedo id_infero id_ingredior id_inprovise id_insequor id_intus id_irretio id_iugulo id_iugulo id_laqueus id_lateo id_lepus id_libenter id_lignarius id_loquela id_lucius id_lucrum id_mansuetus id_mathetes id_mercator id_mergo id_merx id_milleformis id_mino id_mortifico id_mulgeo id_murena id_nascor id_operor id_opilio id_ostrea id_pando id_pareo id_pasco id_pascua id_pecunia id_pereo id_perfruor id_persequor id_piscator id_piscor id_pistor id_plaga id_platessa id_plecto id_praeparo id_praeseps id_proficio id_profiteor id_proicio id_promptuarium id_prosum id_protraho id_pullus id_purpura id_quidem id_raucus id_reduco id_rete id_retineo id_salinator id_saltem id_sapor id_scurrilitas id_sericum id_sermocinor id_sibilo id_sporta id_stannum id_stagnum id_stimulus id_subula id_suppliciter id_sutor id_synaxis id_trado id_vafer id_valde id_vectitus id_venatio id_venator id_venor id_verbero id_verecundia id_versipellis id_versutus id_vescor id_vestio id_victus
+id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus id_amnis id_anguilla id_anilis id_aper id_appono id_arator id_armilla id_assigno id_auceps id_audeo id_augeo id_oricalcum id_ausculto id_avolo id_bubulcus id_butyrum id_calceamentum id_cancer id_capreus id_caulae id_cellarium id_cervisia id_cetus id_coquus id_concino id_consiliarius id_culter id_custos id_cutis id_damma id_decipula id_dego id_delphinus id_dimitto id_disiungo id_domito id_ebur id_edax id_effundo id_egredior id_emo id_erratus id_eruditor id_esca id_exerceo id_expello id_faba id_faenum id_ferrarius id_fimum id_flasco id_foras id_formidolosus id_frenum id_fur id_glutino id_glutto id_gymnasium id_hamus id_hiemo id_holus id_hospitor id_hypocrisis id_iactura id_ictus id_idiota id_illic id_impleo id_incedo id_infero id_ingredior id_inprovise id_insequor id_intus id_irretio id_iugulo id_iugulo id_laqueus id_lateo id_lepus id_libenter id_lignarius id_loquela id_lucius id_lucrum id_mansuetus id_mathetes id_mercator id_mergo id_merx id_milleformis id_mino id_morigeror id_mulgeo id_murena id_nascor id_operor id_opilio id_ostrea id_pando id_pareo id_pasco id_pascua id_pecunia id_pereo id_perfruor id_persequor id_piscator id_piscor id_pistor id_plaga id_platessa id_plecto id_praeparo id_praeseps id_proficio id_profiteor id_proicio id_promptuarium id_prosum id_protraho id_pullus id_purpura id_quidem id_raucus id_reduco id_rete id_retineo id_salinator id_saltem id_sapor id_scurrilitas id_sericum id_sermocinor id_sibilo id_sporta id_stannum id_stagnum id_stimulus id_subula id_suppliciter id_sutor id_synaxis id_trado id_vafer id_valde id_vectitus id_venatio id_venator id_venor id_verbero id_verecundia id_versipellis id_versutus id_vescor id_vestio id_victus
 
 
-
+Hansjörg Vogel,
 -->
 
 <!DOCTYPE html>
@@ -43,6 +43,40 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         box-sizing: border-box;
     }
 
+    .epigraph {
+        max-width       : 65ch; /* Limita el ancho a ~65 caracteres para una lectura cómoda */
+        margin          : 1.5rem auto 3rem auto;
+        padding         : 1.25rem 1.75rem;
+
+        /* 2. El toque de manuscrito: una línea vertical color tinta rúbrica (rojo ocre) */
+        /*border-left: 3px solid #8b261d;*/
+        /*background-color: #faf8f5;*/ /* Un tono pergamino muy sutil */
+        /*border-radius: 0 6px 6px 0;*/
+    }
+
+    .epigraph blockquote {
+        /* 3. Tipografía: buscamos una fuente con serifas clásicas */
+        font-family     : "Georgia", "Palatino Linotype", "Book Antiqua", serif;
+        font-size       : 1.15rem;
+        font-style      : italic;
+        line-height     : 1.65; /* Interlineado amplio, como en los códices glosados */
+        color           : #2c2520; /* Tinta ferrogalica oscura, más suave que el negro puro */
+        margin          : 0 0 0.75rem 0;
+    }
+
+    .epigraph figcaption {
+        /* 4. La firma del autor: más pequeña, limpia y alineada a la derecha */
+        font-family     : system-ui, -apple-system, sans-serif;
+        font-size       : 0.9rem;
+        color           : #5c534b;
+        text-align      : right;
+        letter-spacing  : 0.02em;
+    }
+
+    .epigraph cite {
+        font-style      : italic;
+    }
+
     </style>
 
 </head>
@@ -65,6 +99,19 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         <h1 class="tl-document">Colloquium</h1>
         <h1 class="tl-document-author">Rubén Arquiel — 2026</h1>
 
+
+
+
+  <figure class="epigraph">
+    <blockquote lang="la">
+              «Ya seas sacerdote, ya monje, ya laico, ya soldado, ejercítate a ti mismo en esto; y sé lo que eres,
+              porque gran daño y vergüenza es para el hombre no querer ser lo que es y lo que debe ser»
+    </blockquote>
+    <figcaption>
+      — Ælfric de Eynsham, <cite>Colloquium</cite>
+    </figcaption>
+  </figure>
+
     </header>
 
 <!--    <h3 class="title-section-1">Intro</h3>-->
@@ -77,6 +124,40 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
 -->
 
+
+
+
+    <h3 class="title-section-1">Aelfrico Bata: ruptura en el texto</h3>
+
+        Giro moralizante. Relación más dura y menos respetuosa con los niños. Cambio de estilo del latín.
+
+
+
+    <h3 class="title-section-1">Manuscritos</h3>
+
+
+        Dos testimonios principales:
+
+        <div>
+        <b>British Library, Cotton Tiberius A. iii (fols. 60v–64v)</b>
+        <a href="https://iiif.biblissima.fr/collections/manifest/506e915cb57647d671362ee18b8aa4c13d044122"
+        class="hlink">[aquí]</a>.
+        Mediados del siglo XI. Contiene una glosa interlineal continua en inglés antiguo
+        </div>
+
+        <div>
+        <b>Oxford, St John’s College, MS 154 (fols. 204r–215r)</b>
+        <a href="https://stjohnscollegelibraryoxford.org/2020/05/11/librarians-pick-3/4/"
+        class="hlink">[aquí]</a> y
+        <a href="http://digital.bodleian.ox.ac.uk/objects/cc6f7f04-7236-40e2-8327-520158dfc7d5/"
+        class="hlink">[aquí]</a>.
+
+        </div>
+
+
+
+        </div>
+
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <h3 class="title-section-1">Índice</h3>
@@ -87,6 +168,22 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
             <li style="margin-top: 0rem; margin-bottom: 0 rem">
                 El texto
+                <ul>
+                    <li>
+                        <span class="ts-latin">
+                            <a href="#id_index_el_texto_original_de_aelfrico_de_eynsham" class="hlink">
+                                El texto original de Aelfrico de Eynsham
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="ts-latin">
+                            <a href="#id_la_ampliacion_de_aelfrico_bata" class="hlink">
+                                La ampliación de Aelfrico Bata
+                            </a>
+                        </span>
+                    </li>
+                </ul>
             </i>
 
             <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -116,14 +213,14 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
 <main class="ly-main-container">
 
-    <h2 class="tl-main">El texto</h2>
+    <h2 class="tl-main" id="id_index_el_texto_original_de_aelfrico_de_eynsham">
+        El texto original de Aelfrico de Eynsham
+    </h2>
 
     <section class="ly-section-container-grid-2c">
 
         <div class="ly-grid-box ts-sc-centered-label ts-label-underline ts-label ts-label-underline">
-            <span id="id_index_el_texto">
-                    Colloquium
-            </span>
+                Colloquium
         </div>
 
         <div class="ly-grid-box ts-sc-centered-label ts-label-underline ts-label">
@@ -614,8 +711,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <div style="text-indent:1em">
             V. Me Tejo las redes, y las pongo en un lugar adecuado,
-            y alientoa mis perros que a que persigan las fieras hasta que lleguen a mis redes
-            ...
+            y alientoa mis perros que a que persigan las fieras hasta que lleguen a mis redes&nbsp;...
             y yo los sacrifico en las redes.
         </div>
 
@@ -1089,7 +1185,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- 067 -->
         <div class="ts-latin" style="font-size: 1.5rem; text-indent:1em">
-            M. Quid capis in mari?
+            M. Quid capis in marî?
         </div>
 
         <div style="text-indent:1em">
@@ -1241,6 +1337,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         </div>
 
         <div style="text-indent:1em">
+
         </div>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -1390,7 +1487,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <div style="text-indent:1em">
             huyan volando al bosque,
-            y pomo para mí los ... en otoño,
+            y pomo para mí los&nbsp;... en otoño,
             y los domestico.
 
         </div>
@@ -1714,13 +1811,13 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             M. Quid dīcis tū,
             <a href="#id_pistor" class="hlink">pīstor</a>? Cui
             <a href="#id_prosum" class="hlink">prōdest</a> ars tua,
-            aut sī sine tē possimus uītam ducere?
+            aut sī sine tē possimus uītam ducere?<span styLe="color:red">&#9679;</span>
         </div>
 
         <div style="text-indent:1em">
         </div>
 
-        <div><span styLe="color:red"> &#9679;</span></div><div></div> <!-- <<<<<<<<<< -->
+
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
         <!-- 109 -->
@@ -1850,7 +1947,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         <!-- 117 -->
         <div class="ts-latin" style="font-size: 1.5rem; text-indent:1em">
             C. Dîcô tibi,
-            mini<a href="#id_08" class="hlink; ts-sup"><b>(8)</b></a> uidêtur seruitium Dei
+            mini<a href="#id_09" class="hlink; ts-sup"><b>(9)</b></a> uidêtur seruitium Dei
             inter istâs artês prîmâtum tenêre,
             sîcut legitur in euangeliô,
             Prîmum
@@ -1990,6 +2087,23 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
+    </section>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <section class="ly-grid-one-column">
+
+
+    <h2 class="tl-main" id="id_la_ampliacion_de_aelfrico_bata">La ampliación de Aelfrico Bata</h2>
+
+
+    </section>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <section class="ly-section-container-grid-2c">
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
         <!-- 125 -->
         <div class="ts-latin" style="font-size: 1.5rem; text-indent:1em" id="id_los_discipulos_2">
             M. Ō puerī, quōmodō uōbīs placet ista locūtiō?
@@ -2007,7 +2121,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <a href="#id_valde" class="hlink">ualdē</a>  prŏfunde loqueris, et ultrā
             <span class="ts-latin-emph">ētātem</span> nostram
             <a href="#id_protraho" class="hlink">prōtrahis</a> sermōnem;
-            sed loquere nōbīs juxtā nostrum intellectum, ut possimus intelligere
+            sed loquêre nōbīs juxtā nostrum intellectum, ut possimus intelligere
             <span class="ts-latin-emph">quē</span> loqueris?
         </div>
 
@@ -2118,11 +2232,12 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- 135 -->
         <div class="ts-latin" style="font-size: 1.5rem; text-indent:1em">
+<span styLe="color:green">&#9679;</span> <!-- <<< -->
             M. Et ego faciam sīcut rogātis. Tū, puer, quid fēcistī hodiē?
         </div>
 
         <div style="text-indent:1em">
-            M. Haré como pediste. Tú, joven, ¿qué hiciste hoy?
+            M. Y yo procederé como pedistes. Tú, muchacho, ¿qué hiciste hoy?
         </div>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -2133,7 +2248,8 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <a href="pb.facetiae.html#id_surgo" class="hlink">surrēxī</a> dē
             <a href="#id_lectulus" class="hlink">lectulō</a> et
             <a href="pb.facetiae.html#id_exeo" class="hlink">exīuī</a> ad ecclēsiam,
-            et cantāuī nocturnam cum frātribus;
+            et cantāuī nocturnam<a href="#id_08" class="hlink; ts-sup"><b>(8)</b></a>.
+            cum frātribus;
             deinde cantāvimus dē omnibus sānctīs et mātūtīnālēs laudēs;
             post haec, prīmam, et vii. psalmōs, cum letaniīs, et prīmam missam;
             deinde tertiam, et fēcimus missam dē diē;
@@ -2154,6 +2270,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         </div>
 
         <div style="text-indent:1em">
+            M. ¿Cuándo querés cantar la víspera o el completorio?
         </div>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -2164,31 +2281,32 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         </div>
 
         <div style="text-indent:1em">
+            D. Cuando sea el momento.
         </div>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
         <!-- 139 -->
         <div class="ts-latin" style="font-size: 1.5rem; text-indent:1em">
-            M. Fuistī hodiē uerberātus?
+            M. Fuistī hodiē
+            <a href="#id_verbero" class="hlink">uerberātus</a>?
         </div>
 
         <div style="text-indent:1em">
-            <span style="color: var(--shadow);">
-            M. Fuistī hodiē
-            <a href="#id_verbero" class="hlink">uerberātus</a>?
-            </span>
+            M. ¿Hoy fuiste castigado?
         </div>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
         <!-- 140 -->
         <div class="ts-latin" style="font-size: 1.5rem; text-indent:1em">
-            D. Nōn fui,
-            quia caute mē tenuī.
+            D. Nōn fuî,
+            quia
+            <a href="#id_caute" class="hlink">cautê</a> mē tenuī.
         </div>
 
         <div style="text-indent:1em">
+            D. Nolo fui, porque me mantuve con cautela.
         </div>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -2199,9 +2317,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         </div>
 
         <div style="text-indent:1em">
-            <span style="color: var(--shadow);">
-            M. Et quomodo tui socii?
-            </span>
+            M. ¿Y de qué modo tus compañeros?
         </div>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -2211,10 +2327,12 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             D. Quid mē interrogās dē hoc? Nōn
             <a href="#id_audeo" class="hlink">audeō</a>
             <a href="#id_pando" class="hlink">pandere</a> tibi sēcrēta nostra.
-            <a href="#pb.facetiae.html#id_unusquisque" class="hlink">Ūnusquisque</a> scit sī flagellatus erat an nōn.
+            <a href="pb.facetiae.html#id_unusquisque" class="hlink">Ūnusquisque</a> scit sī flagellatus erat an nōn.
         </div>
 
         <div style="text-indent:1em">
+            D. ¿Qué me preguntas de esto? No me atrevo a revelarte nuestos secretos.
+            Cada uno sabe si fue flagelado o no.
         </div>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -2239,6 +2357,8 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         </div>
 
         <div style="text-indent:1em">
+            D.
+            Todavía me alimento de carnes, porque soy joven y estoy bajo la vara.
         </div>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -2263,7 +2383,10 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         </div>
 
         <div style="text-indent:1em">
+            Verduras y huevos, pescado y queso, manteca y frijoles,
+            y como todo lo saludable, con acción de gracias.
         </div>
+
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
@@ -2287,10 +2410,11 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         <!-- 148 -->
         <div class="ts-latin" style="font-size: 1.5rem; text-indent:1em">
             D. Nōn sum tam uorāx ut omnia genera cibōrum in ūnā refectiōne
-            <a href="pb.facetiae.html#id_edo" class="hlink">ēdere</a> possum.
+            <a href="#id_edo_1" class="hlink">ĕdere</a> possum.
         </div>
 
         <div style="text-indent:1em">
+            M. No soy tan voraz que pueda comer toda clase de alientos en una misma comida.
         </div>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -2310,7 +2434,8 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         <div class="ts-latin" style="font-size: 1.5rem; text-indent:1em">
             D.
             <a href="#id_vescor" class="hlink">Uescor</a> aliquandō his cibīs,
-            et aliquandō aliīs, cum sōbrietāte, sīcut decet monachum, nōn cum
+            et aliquandō aliīs, cum sōbrietāte, sīcut
+            <a href="#id_decet" class="hlink">decet</a> monachum, nōn cum
             uorācitāte, quia nōn sum
             <a href="#id_glutto" class="hlink; ts-latin-emph">glūtō</a>.
         </div>
@@ -2331,7 +2456,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         </div>
 
         <div style="text-indent:1em">
-            ¿Y qué bebes?
+            M. ¿Y qué bebes?
         </div>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -2412,7 +2537,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         <!-- 158 -->
         <div class="ts-latin" style="font-size: 1.5rem; text-indent:1em">
             D. Aliquandō audiō signum, et
-            <a href="#id_surgo" class="hlink">surgō</a>; aliquandō magister meus excitat mē dūriter cum uirgā.
+            <a href="pb.facetiae.html#id_surgo" class="hlink">surgō</a>; aliquandō magister meus excitat mē dūriter cum uirgā.
         </div>
 
         <div style="text-indent:1em">
@@ -2429,19 +2554,20 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <a href="pb.facetiae.html#id_hortor" class="hlink">hortātur</a> uester
             <a href="#id_eruditor" class="hlink">ērudītor</a> ut
             <a href="#id_pareo" class="hlink">pāreātis</a> dīuīnīs disciplīnīs,
-            et obseruētis uōsmet ēleganter ubīque locōrum.
-            <a href="#id_incedo" class="hlink">Incēditis</a> mōrigerāte, cum
-            <a href="#id_ausculto" class="hlink">auscultāueritis</a> ecclēsi<span class="ts-latin-emph">ē</span>
+            et obseruētis uōsmet ēleganter ubīque locōrum<a href="#id_10" class="hlink; ts-sup"><b>(10)</b></a>.
+            <a href="#id_incedo" class="hlink">Incēditis</a>
+            <a href="#id_morigeror" class="hlink">mōrigerāte</a>, cum
+            <a href="#id_ausculto" class="hlink">auscultāueritis</a> <span class="ts-latin-emph">ecclēsiē</span>
             campānās, et
             <a href="#id_ingredior" class="hlink">ingrediēminī</a> in ōrātiōnem,
             et inclīnāte
             <a href="#id_suppliciter" class="hlink">suppliciter</a> ad
             <a href="#id_almus" class="hlink">almās</a> ārās,
             et
-            <a href="#ovidius.aetates.html#id_sto" class="hlink">stāte</a> disciplīnabiliter, et
+            <a href="ovidius.aetates.html#id_sto" class="hlink">stāte</a> disciplīnabiliter, et
             <a href="#id_concino" class="hlink">concinite</a> ūnanimiter et
             interuenite prō uestrīs
-            <a href="#id_erro" class="hlink">errātibus</a>, et
+            <a href="#id_erratus" class="hlink">errātibus</a>, et
             <a href="#id_egredior" class="hlink">ēgrediminī</a> sine
             <a href="#id_scurrilitas" class="hlink; ts-latin-emph">scirīlitātem</a>
             in claustrum uel in
@@ -2449,15 +2575,16 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         </div>
 
         <div style="text-indent:1em">
-            <i>M. Oh, buenos muchachos y elegantes estudiantes,
-            vuestro maestro os exhorta a seguir la disciplina divina
-            y a comportaros con elegancia dondequiera que vayáis.
-            Caminad con dignidad,
-            después de escuchar las campanas de la iglesia,
-            entrad en oración,
-            inclinaos suplicantes ante los altares nutricios, manteneos firmes,
+            M. Oh, buenos jóvenes, elegantes estudiantes,
+            vuestro maestro os exhorta a seguir las disciplinas divinas
+            y a comportaros con elegancia en todo lugar.
+            Marchad con docilidad
+            cuando escuchéis las campanas de la iglesia,
+            y entrad en la oración,
+            inclinaos humildemente ante los altares sagrados,
+            permaneced erguidos con disciplina,
             cantad al unísono e interceded por vuestros errores,
-            y salid sin escrúpulos al claustro o al gimnasio.</i>
+            y salid sin hacer tonterías al claustro o al aula.</i>
         </div>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -2492,7 +2619,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <li>
                 <span id="id_02"></span>
                 <span class="ts-latin">Ad puerōs linguae Latīnae locūtiōne exercendōs</span>.
-                <span class="ts-latin">Ad puerōs ... exercendōs</span>: construcción de gerundivo
+                <span class="ts-latin">Ad puerōs&nbsp;... exercendōs</span>: construcción de gerundivo
                 con valor de complemento de finalidad.
                 <span class="ts-latin">Locūtiōne</span>: complemento de limitación o de medio.
             </li>
@@ -2535,8 +2662,45 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
             <li>
                 <span id="id_08"></span>
+                <span class="ts-latin">Noctunus</span>
+                Los Maitines, más o entre las 2 de la madrugada y las 3.<br>
+                Las horas canónias era:<br>
+                1. Maitines (Matutinum o Nocturni): Durante la madrugada (aprox. 2:00 a. m.).<br>
+                2. Laudes (Laudes): Al amanecer, con las primeras luces del día.<br>
+                3. Prima (Prima): Al salir el sol (alrededor de las 6:00 a. m.).<br>
+                4. Tercia (Tertia): A media mañana (9:00 a. m.).<br>
+                5. Sexta (Sexta): Al mediodía (12:00 p. m.).<br>
+                6. Nona (Nona): A media tarde (3:00 p. m.).<br>
+                7. Vísperas (Vesperae): Al atardecer, antes de oscurecer (6:00 p. m.).<br>
+                8. Completas (Completorium): Antes de irse a dormir (aprox. 7:00 u 8:00 p. m.)
+
+            </li>
+
+
+        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+            <li>
+                <span id="id_09"></span>
                 <span class="ts-latin">Mini</span>
                 = <span class="ts-latin">mihi</span>.
+            </li>
+
+
+
+        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+            <li>
+                <span id="id_10"></span>
+                <span class="ts-latin">Ubīque locōrum</span> Adverbio complemnentado por genitivo partitivo.
+                <span class="ts-latin">Ubîcumque locôrum vîvitis</span>&nbsp;:
+                En cualquier lugar que vivás.
+                <span class="ts-latin">Nômina stultôrum ubîque locôrum</span>&nbsp;:
+                Los nombres de los necios
+                [están escritos] por doquier, en cualquier lugar.
+                <span class="ts-latin">Ubi terrârum?</span>&nbsp;:
+                ¿Dónde en la tierra? = ¿En qué parte del mundo?<br>
+                Cfr. Bennet §221.
             </li>
 
         <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -2628,7 +2792,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                 </li>
                 <li>
                     <span class="ts-latin">
-                        Vênit autem prîmus dîcens :
+                        Vênit autem prîmus dîcens&nbsp;:
                         Domine, mna tua decem mnâs acquîsîvit.
                     </span>
                     <span class="ts-author">
@@ -2664,7 +2828,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Supervēnēre pāstōrēs, et ējēcērunt eās :
+                        Supervēnēre pāstōrēs, et ējēcērunt eās&nbsp;:
                         surrēxitque Mōȳsēs, et dēfēnsīs puellīs, adaquāvit ovēs eārum.
                     </span>
                     <span class="ts-author">
@@ -2753,7 +2917,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                 <li>
                     <span class="ts-latin">
                         Pilâtus autem cum audîsset hôs sermônês, addûxit
-                        <a href="#id_foras" class="hlink">forâs</a> Jêsum :
+                        <a href="#id_foras" class="hlink">forâs</a> Jêsum&nbsp;:
                         et sêdit prô tribûnâlî,
                         in locô quî dîcitur Lithostrotos,
                         hebraice autem Gabbatha.
@@ -2813,7 +2977,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Quærite ergô prîmum rêgnum Dei, et jûstitiam ejus :
+                        Quærite ergô prîmum rêgnum Dei, et jûstitiam ejus&nbsp;:
                         et hæc omnia adjicientur vôbîs.
                     </span>
                     <span class="ts-author">
@@ -2854,8 +3018,8 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                 <li>
                     <span class="ts-latin">
                         Vir respiciêns in mênsam aliênam,
-                        nôn est vîta ejus in cogitâtiône victûs<span class="ts-sup"><b>(&alpha;)</b></span> :
-                        alit enim animam suam cibîs aliênîs :
+                        nôn est vîta ejus in cogitâtiône victûs<span class="ts-sup"><b>(&alpha;)</b></span>&nbsp;:
+                        alit enim animam suam cibîs aliênîs&nbsp;:
                     </span>
                     <span class="ts-author">
                         Eclo&nbsp;40,&nbsp;30
@@ -2869,7 +3033,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <div class="vc-translations-line"></div> <!-- La línea inicial -->
             <ol class="vc-translations-ol">
                 <li>
-                    <span class="ts-latin">Victus, -ûs m.</span> : sustento, víveres, comida.
+                    <span class="ts-latin">Victus, -ûs m.</span>&nbsp;: sustento, víveres, comida.
                 </li>
             </ol>
         </div>
@@ -3029,7 +3193,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Ineptās autem, et anīlēs fābulās dēvītā :
+                        Ineptās autem, et anīlēs fābulās dēvītā&nbsp;:
                         exercē autem teipsum ad pietātem.
                     </span>
                     <span class="ts-author">
@@ -3468,7 +3632,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                         <a href="complementum.html#.id_locusta" class="hlink">locustarum</a>,<br>
                         quæ
                         <a href="complementum.html#.id_consido" class="hlink">cônsîdunt</a>
-                        in sepibus in diê frîgôris :<br>
+                        in sepibus in diê frîgôris&nbsp;:<br>
                         sol ortus est, et âvolâvêrunt,<br>
                         et nôn est cognitus locus eârum ubi fuerint.<br>
                     </span>
@@ -3551,7 +3715,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                         et
                         <a href="pb.facetiae.html#id_vitulum">vitulum</a> quem
                         <a href="complementum.html#coquo">coxerat</a>,
-                        et pôsuit côram eis :
+                        et pôsuit côram eis&nbsp;:
                         ipse vêrô stabat juxtâ eôs sub arbore.
                     </span>
                     <span class="ts-author">
@@ -3591,7 +3755,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                 <li>
                     <span class="ts-latin">
                         Ipse est quî post mê ventûrus est,
-                        quî ante mê factus est :
+                        quî ante mê factus est&nbsp;:
                         cujus ego nôn sum dignus ut solvam ejus
                         <span class="complementum.html#id_corrigia">corrigiam</a> calceâmentî.
                     </span>
@@ -3675,9 +3839,9 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Dīxitque Jacob :
+                        Dīxitque Jacob&nbsp;:
                         <a href="#id_adhuc" class="hlink">Adhûc</a> multum diêî superest,
-                        nec est tempus ut redûcantur ad caulās gregēs :
+                        nec est tempus ut redûcantur ad caulās gregēs&nbsp;:
                         date ante pōtum ovibus, et sīc eās ad pāstum redūcite.
                     </span>
                     <span class="ts-author">
@@ -3688,6 +3852,67 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         </div>
 
     </section>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <section class="ly-section-document">
+
+        <hr> <!-- CARD -->
+
+        <!-- LEMA -->
+        <div class="ly-vc-h">
+            <span class="vc-lema" id="id_caute">
+                Cautē
+            </span>
+            <span class="vc-morphosintaxis">
+                adv. no comp.
+            </span>
+        </div>
+
+
+        <!-- INFO -->
+        <div class="ly-vc-h ly-vc-w vc-info">
+            Cautelosamente.
+        </div>
+
+
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        Dederat autem trâditor ejus signum eis,
+                        dîcêns&nbsp;:
+                        Quemcumque ôsculâtus fuerô,
+                        ipse est,
+                        tenete eum,
+                        et dûcite caute.&nbsp;
+                    </span>
+                    <span class="ts-author">
+                        Mc&nbsp;14,c44
+                    </span>
+                </li>
+            </ul>
+        </div>
+44
+
+        <!-- NOTAS MÚLTIPLES -->
+        <div class="ly-vc-h vc-multiple-notes">
+            <ul class="vc-multiple-notes-ul">
+                <li>
+                    <span class="ts-latin">
+                        Cautim.
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+    </section>
+
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
@@ -3803,27 +4028,6 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
     </section>
 
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-    <section class="ly-section-document">
-
-        <hr> <!-- CARD -->
-
-        <!-- LEMA -->
-        <div class="ly-vc-h">
-            <span class="vc-lema" id="id_cetus">
-                Cêtus, -î
-            </span>
-            <span class="vc-morphosintaxis">
-                m.
-            </span>
-        </div>
-
-        <!-- INFO -->
-        <div class="ly-vc-h ly-vc-w vc-info">
-        </div>
-
-    </section>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
@@ -3871,6 +4075,34 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         <div class="ly-vc-h ly-vc-w vc-info">
             Cantar en conjunto.
         </div>
+
+
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        Cumque vîdisset rêgem stantem super gradum in introitû,
+                        et prîncipês,
+                        <a href="pb.facetiae.html#id_turma" class="hlink">turma</a>que circâ eum,
+                        omnemque populum terræ gaudentem,
+                        atque clangentem tubis,
+                        et diversi generis organis concinentem,
+                        vocemque laudantium,
+                        scidit vestimenta sua,
+                        et ait&nbsp;:
+                        <a href="ovidius.aetates.html#id_insidiae" class="hlink">Insidiæ</a>,
+                        <a href="ovidius.aetates.html#id_insidiae" class="hlink">insidiæ</a>.
+
+                                            </span>
+                    <span class="ts-author">
+                        2&nbsp;Par&nbsp;23,&nbsp;13
+                    </span>
+                </li>
+            </ul>
+        </div>
+
 
     </section>
 
@@ -3921,7 +4153,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Quod sī altāre lapideum fēceris mihi, nōn ædiﬁcābis illud dē sectīs lapidibus :
+                        Quod sī altāre lapideum fēceris mihi, nōn ædiﬁcābis illud dē sectīs lapidibus&nbsp;:
                         sī enim levāveris cultrum super eō, polluētur.
                     </span>
                     <span class="ts-author">
@@ -4009,6 +4241,49 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- LEMA -->
         <div class="ly-vc-h">
+            <span class="vc-lema" id="id_decet">
+                Decet, decuit, decitum, decēre
+            </span>
+        </div>
+
+        <!-- INFO -->
+        <div class="ly-vc-h ly-vc-w vc-info">
+            Ser apropiado.
+        </div>
+
+        <!-- MORFOLOGIA -->
+        <div class="ly-vc-h morphology">
+            Sólo tercera persona, sin pasiva.
+        </div>
+
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        Vôs ipsî jûdicâte&nbsp;:
+                        decet mulierem nôn vêlâtam ôrâre Deum?
+                    </span>
+                    <span class="ts-author">
+                        1&nbsp;Cor&nbsp;11,&nbsp;13
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <section class="ly-section-containter">
+
+        <hr> <!-- CARD -->
+
+        <!-- LEMA -->
+        <div class="ly-vc-h">
             <span class="vc-lema" id="id_decipula">
                 dēcipula, -ae
             </span>
@@ -4029,7 +4304,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                 <li>
                     <span class="ts-latin">
                         Sîcut dêcipula plêna avibus,<br>
-                        sîc domus eôrum plênæ dolô :
+                        sîc domus eôrum plênæ dolô&nbsp;:
                     </span>
                     <span class="ts-author">
                         Jer&nbsp;5,&nbsp;27
@@ -4055,7 +4330,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
-            Pasar o gastar tiempo. Vivir.
+            Vivir. Pasar o gastar tiempo.
         </div>
 
     </section>
@@ -4196,6 +4471,45 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- LEMA -->
         <div class="ly-vc">
+            <span class="vc-lema" id="id_edo_1">
+                Edō, edis, ēdī, ēsum / ēssum, edere / ēsse
+            </span>
+
+        </div>
+
+        <!-- INFO -->
+        <div class="ly-vc-h ly-vc-w vc-info">
+            Comer
+        </div>
+
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        Quis mîlitat suis stîpendiîs umquam?
+                        quis plantat vîneam,
+                        et dê frûctû ejus nôn edit?
+                    </span>
+                    <span class="ts-author">
+                        &nbsp;1&nbsp;Cor&nbsp;9,c7
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+
+    </section>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <section class="ly-section-containter">
+
+        <hr> <!--CARD-->
+
+        <!-- LEMA -->
+        <div class="ly-vc">
             <span class="vc-lema" id="id_effundo">
                 Effundō, effundis, effūdī, effūsum, effundĕre
             </span>
@@ -4265,13 +4579,32 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         <!-- DEFINICIÓN ÚNICA-->
         <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
-                Emō est pretiō aliquid mihi compărō, mercor, coemō
+                Emō est pretiō aliquid mihi compărō, mercor, coemō&nbsp;...
                 Hisp. <span class="ts-latin-emph">comprar, mercar;</span>
             </span>
             <span class="ts-author">
                 Forcellini
             </span>
         </div>
+
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        Inventa autem una pretiôsa margarîta,
+                        abiit,
+                        et vendidit omnia quæ habuit,
+                        et emit eam.
+                    </span>
+                    <span class="ts-author">
+                        Mt&nbsp;13,&nbsp;46
+                    </span>
+                </li>
+            </ul>
+        </div>
+
 
     </section>
 
@@ -4283,13 +4616,17 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- LEMA -->
         <div class="ly-vc-h">
-            <span class="vc-lema" id="id_erro">
-                Errō, errās, errāvī, errātum, errāre
+            <span class="vc-lema" id="id_erratus">
+                Errātus, -ūs
+            </span>
+            <span class="vc-morphosintaxis">
+                m.
             </span>
         </div>
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
+            Error, extravío.
         </div>
 
     </section>
@@ -4307,13 +4644,42 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <span class="vc-morphosintaxis">
                 m.
             </span>
+            <span class="vc-lema" id="id_eruditor">
+                Ērudītrix, -îcis
+            </span>
+            <span class="vc-morphosintaxis">
+                f.
         </div>
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
+            Maestro. Instuctor. Cf. <span class="ts-latin">êrudio</span>&nbsp;: enseñar, instruir.
         </div>
 
-    </section>s
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        Cônfîdis teipsum esse ducem cæcôrum,
+                        lûmen eôrum quî in tenebris sunt,
+                        êrudîtôrem însipientium,
+                        magistrum infantium,
+                        habentem formam scientiæ,
+                        et vEritâtis in lêge;
+                    </span>
+                    <span class="ts-author">
+                        Rom&nbsp;2,&nbsp;18-19
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+    </section>
 
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -4362,7 +4728,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
-            Trabajar. Ejercer, practicar. Ejercitar.
+            Trabajar. Ejercer, practicar. Ejercitar, adiestrar.
         </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
@@ -4449,6 +4815,30 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             Frijol.
         </div>
 
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        Et tû,
+                        <a href="#id_sumo" class="hlink">sûme</a> tibi frûmentum,
+                        et hordeum,
+                        et fabam,
+                        et lentem,
+                        et milium,
+                        et viciam;&nbsp;
+                    </span>
+                    <span class="ts-author">
+                        Ez&nbsp;4,&nbsp;13
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+
+
+
     </section>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -4516,6 +4906,12 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         <div class="ly-vc-h ly-vc-w vc-info">
             Estiércol
         </div>
+
+        <!-- MORFOLOGIA -->
+        <div class="ly-vc-h morphology">
+            También masculino: <span class="ts-latin">Fimus, -ī m.</span>
+        </div>
+
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
         <div class="ly-vc-h vc-examples">
@@ -4603,7 +4999,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Hæc cum dīxisset, voce magnā clāmāvit : Lazare, venī forās.
+                        Hæc cum dīxisset, voce magnā clāmāvit&nbsp;: Lazare, venī forās.
                     </span>
                     <span class="ts-author">
                         Io&nbsp;11,&nbsp;43
@@ -4629,7 +5025,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
-            Tímido.
+            Temeroso, miedoso.
         </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
@@ -4638,7 +5034,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Loquere ad populum, et cūnctīs audientibus prædica :
+                        Loquêre ad populum, et cūnctīs audientibus prædica&nbsp;:
                         Quī formīdolōsus et timidus est, revertātur.
                     </span>
                     <span class="ts-author">
@@ -4693,7 +5089,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Amen, amen dīcō vōbīs :
+                        Amen, amen dīcō vōbīs&nbsp;:
                         quī nōn intrat per ōstium in ovīle ovium, sed ascendit aliunde, ille fūr est et latrō.
                     </span>
                     <span class="ts-author">
@@ -4774,13 +5170,28 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                 gymnasium, -ī
             </span>
             <span class="vc-morphosintaxis">
-                N.
+                n.
             </span>
         </div>
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
             En los monasterios, salón de estudio.
+        </div>
+
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        Et ædiﬁcâvêrunt gymnasium in Jerosolymîs secundum lêgês nâtiônum.
+                    </span>
+                    <span class="ts-author">
+                        Mac&nbsp;1,&nbsp;15
+                    </span>
+                </li>
+            </ul>
         </div>
 
     </section>
@@ -4813,8 +5224,8 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                 <li>
                     <span class="ts-latin">
                         Ut autem nōn scandalizēmus eōs, vāde ad mare, et mitte hāmum:
-                        et eum piscem, quī prīmus ascenderit, tolle :
-                        et apertō ōre ējus, inveniēs statērem :
+                        et eum piscem, quī prīmus ascenderit, tolle&nbsp;:
+                        et apertō ōre ējus, inveniēs statērem&nbsp;:
                         illum sūmēns, dā eis prō mē et tē.
                     </span>
                     <span class="ts-author">
@@ -4841,7 +5252,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
-            Invernar. Pasar el invernoPérdida.
+            Invernar, pasar el inverno.
         </div>
 
     </section>
@@ -4864,8 +5275,11 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
-            Pérdida.
+            Verduras.
         </div>
+
+
+
 
     </section>
 
@@ -4972,6 +5386,12 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                 m.
             </span>
         </div>
+
+        <!-- INFO -->
+        <div class="ly-vc-h ly-vc-w vc-info">
+            No iniciado. Ignorante.
+        </div>
+
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
         <div class="ly-vc-h vc-examples">
@@ -5115,7 +5535,27 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
+            Marchar. Andar.
         </div>
+
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        Tria sunt quæ bene gradiuntur, <br>
+                        et quartum quod incêdit fêliciter&nbsp;:
+                    </span>
+                    <span class="ts-author">
+                        Prov&nbsp;30,&nbsp;29
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+
+
 
     </section>
 
@@ -5133,7 +5573,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
-            Llevar adentro. Inferir.
+            Producir, inspirar. Llevar.
         </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
@@ -5143,7 +5583,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                 <li>
                     (Llevar)
                     <span class="ts-latin">
-                        Coctōsque dē venātiōne cibōs intulit patrī, dīcēns :
+                        Coctōsque dē venātiōne cibōs intulit patrī, dīcēns&nbsp;:
                         Surge, pater mī, et comede dē venātiōne īliī tuī, ut benedīcat mihi anima tua.
                     </span>
                     <span class="ts-author">
@@ -5424,13 +5864,16 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Videns autem mulier, quia nōn latuit, tremēns vēnit, et
-                        prōcidit ante pedēs ejus :
+                        Videns autem mulier,
+                        quia nōn latuit,
+                        tremēns vēnit,
+                        et prōcidit ante pedēs ejus&nbsp;:
                         et ob quam causam tetigerit eum,
-                        indicāvit cōram omnnī populō : et quemadmodum cōnfĕstim sānātā sit.
+                        indicāvit cōram omnnī populō&nbsp;:
+                        et quemadmodum cōnfĕstim sānātā sit.
                     </span>
                     <span class="ts-author">
-                        Lc &nbsp;8,&nbsp;47
+                        Lc&nbsp;8,&nbsp;47
                     </span>
                 </li>
             </ul>
@@ -5470,6 +5913,25 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
         <div class="ly-vc-h ly-vc-w vc-info">
             Camastro
         </div>
+
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        In lectulô meô, per noctês,
+                        quæsîvî quem dîligit anima mea :
+                        quæsîvî illum, et nôn invênî.&nbsp;
+                    </span>
+                    <span class="ts-author">
+                        Cant&nbsp;3,&nbsp;2
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+
 
     </section>
 
@@ -5649,7 +6111,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Dīcite fīliæ Sion :<br>
+                        Dīcite fīliæ Sion&nbsp;:<br>
                         Ecce rēx tuus venit tibi<br>
                         mānsuētus, sedēns super asinam,<br>
                         et pullum fīlium subjugālis.
@@ -5701,8 +6163,8 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Quia dē vīnō iræ fornicātiōnis ejus bibērunt omnēs gentēs :
-                        et rēgēs terræ cum illā fornicātī sunt :
+                        Quia dē vīnō iræ fornicātiōnis ejus bibērunt omnēs gentēs&nbsp;:
+                        et rēgēs terræ cum illā fornicātī sunt&nbsp;:
                         et mercātōrēs terræ dē virtūte dēliciārum ejus dīvitēs factī sunt.
                     </span>
                     <span class="ts-author">
@@ -5805,8 +6267,10 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                 <li>
                     <span class="ts-latin">
                         Et tulit ūniversōs gregēs et
-                        armenta, et
-                        mināvit ante faciem suam : dīxēruntque : Hæc est præda David.
+                        armenta,
+                        et mināvit ante faciem suam&nbsp;:
+                        dīxēruntque&nbsp;:
+                        Hæc est præda David.
                     </span>
                     <span class="ts-author">
                         I&nbsp;Re&nbsp;(Vg.&nbsp;III&nbsp;Reg.)&nbsp;30,&nbsp;20;
@@ -5850,6 +6314,46 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
     </section>
 
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <section class="ly-section-containter">
+
+        <hr> <!-- CARD -->
+
+        <!-- LEMA -->
+        <div class="ly-vc-h">
+            <span class="vc-lema" id="id_morigeror">
+                Mōrigeror, mōrigerāris, mōrigerātus sum, mōrigerārī
+            </span>
+        </div>
+
+        <!-- INFO -->
+        <div class="ly-vc-h ly-vc-w vc-info">
+            Condescender con, ser complaciente, condescendiente, dócil, sumiso.
+        </div>
+
+        <!-- NOTAS MÚLTIPLES -->
+        <div class="ly-vc-h vc-multiple-notes">
+            <ul class="vc-multiple-notes-ul">
+                <li>
+                    <span class="ts-latin">
+                        Obsequor, obtemperō.
+                    </span>
+                </li>
+                <li>
+                    <span class="ts-english">
+                        To comply with, gratify, humor, endeavour to please
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+
+
+
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <section class="ly-section-containter">
@@ -5874,7 +6378,8 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                         Et dīxit eis : Ite, comedite pinguia, et bibite mulsum, et mittīte partēs hīs
+                         Et dīxit eis&nbsp;:
+                         Ite, comedite pinguia, et bibite mulsum, et mittīte partēs hīs
                          quī nōn præparāvērunt sibi;
                     </span>
                     <span class="ts-author">
@@ -5954,7 +6459,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Dīxērunt ergō ei :
+                        Dīxērunt ergō ei&nbsp;:
                         Quod ergō tū facis sīgnum ut videāmus et crēdāmus tibi?
                         quid operāris?
                     </span>
@@ -6021,7 +6526,8 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                 <li>
                     <span class="ts-latin">
                         <a href="complementum.html#id_evolvo" class="hlink">Evolutis</a>
-                        autem multīs diēbus, mortua est fīlia Sue uxor Judæ :  quī, post lūctum cōnsōlātiōne
+                        autem multīs diēbus, mortua est fīlia Sue uxor Judæ&nbsp;:
+                        quī, post lūctum cōnsōlātiōne
                         suscepta, ascendebat ad tōnsōrēs ovium suArum, ipse et Hiras ōpiliō gregis Odollamites,
                         in Thamnas.
                     </span>
@@ -6069,10 +6575,10 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Et angelô Thyatîræ ecclêsiæ scrîbe :
+                        Et angelô Thyatîræ ecclêsiæ scrîbe&nbsp;:
                         Hæc dîcit Fîlius Dei,
                         quî habet oculôs tamquam ﬂammam ignis,
-                        et pedês ejus similês auricalcô :
+                        et pedês ejus similês auricalcô&nbsp;:
                     </span>
                     <span class="ts-author">
                         Ap &nbsp;2,&nbsp;18
@@ -6184,7 +6690,27 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
+            Entregarse a. Seguir a.
         </div>
+
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        Seditque Salomon super solium Dominî in rêgem prô David patre suô,
+                        et cûnctîs placuit&nbsp;:
+                        et pâruit illî omnis Isrâêl
+                    </span>
+                    <span class="ts-author">
+                        1&nbsp;Par&nbsp;29,&nbsp;23
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+
 
     </section>
 
@@ -6223,6 +6749,12 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             </span>
         </div>
 
+        <!-- INFO -->
+        <div class="ly-vc-h ly-vc-w vc-info">
+            Los pastos.
+        </div>
+
+
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
         <div class="ly-vc-h vc-examples">
             En la Vulgata sixto-clementina:
@@ -6230,7 +6762,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                 <li>
                     <span class="ts-latin">
                         Ego sum ōstium.
-                        Per mē sī quis introierit, salvābitur :
+                        Per mē sī quis introierit, salvābitur&nbsp;:
                         et ingrediētur, et ēgrediētur, et pāscua inveniet.
                     </span>
                     <span class="ts-author">
@@ -6376,8 +6908,13 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Ambulāns autem Jēsūs juxtā mare Galilææ, vīdit duōs frātrēs, Simōnem, quī vocātur Petrus,
-                        et Andream frātrem ejus, mittentēs rete in mare (erant enim piscātōrēs);
+                        Ambulāns autem Jēsūs juxtā mare Galilææ,
+                        vīdit duōs frātrēs,
+                        Simōnem,
+                        quī vocātur Petrus,
+                        et Andream frātrem ejus,
+                        mittentēs
+                        <a href="#id_rete" class="hlink">rête</a> in mare (erant enim piscātōrēs);
                     </span>
                     <span class="ts-author">
                         Mt&nbsp;4,&nbsp;18
@@ -6426,7 +6963,7 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
-            Panadero.
+            Molinero. Panadero. Repostero.
         </div>
 
         <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
@@ -6435,9 +6972,9 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Vidēns pīstōrum magister quod prūdenter somnium dissolvisset, ait :
-                        Et ego vīdī somnium : quod
-                        tria
+                        Vidēns pīstōrum magister quod prūdenter somnium dissolvisset, ait&nbsp;:
+                        Et ego vīdī somnium&nbsp;:
+                        quod tria
                         <a href="complementum.html#id_canistrum" class="hlink">canistra</a>
                         farīnæ habērem super caput meum;
                     </span>
@@ -6558,7 +7095,8 @@ id_accipiter id_acquiro id_adaquo id_adduco id_adhuc id_adicio id_alo id_almus i
                         et arundinem in dextera ejus.
                         Et genû ﬂexô ante eum,
                         illûdêbant ei,
-                        dîcentês :  Avê rêx Jûdæôrum.
+                        dîcentês&nbsp;:
+                        Avê rêx Jûdæôrum.
                     </span>
                     <span class="ts-author">
                         Mt&nbsp;27,&nbsp;29
@@ -6708,8 +7246,12 @@ Multam inveni in meipso sapientiam, et multum profeci in ea. Ecclo 51, 22
             </span>
         </div>
 
-Ascendit autem et Joseph a Galilæa de civitate Nazareth in Judæam, in civitatem David, quæ vocatur Bethlehem : eo quod es- set de domo et familia David, 5 ut proﬁteretur cum Maria desponsata sibi uxore prægnante.
-Lc 2, 4-5
+                Ascendit autem et Joseph a Galilæa de civitate Nazareth in Judæam,
+                in civitatem David,
+                quæ vocatur Bethlehem&nbsp;:
+                eo quod esset de domo et familia David,&nbsp;
+                5 ut proﬁteretur cum Maria desponsata sibi uxore prægnante.
+                Lc 2, 4-5
 
         <!-- NOTAS MÚLTIPLES -->
         <div class="ly-vc-h vc-multiple-notes">
@@ -6902,8 +7444,8 @@ Ps 68, 4
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Mīsēruntque nuntiōs ad habitātōrēs Cariathiarim, dīcentēs :
-                        Redūxērunt Philisthiim arcam Dominī :
+                        Mīsēruntque nuntiōs ad habitātōrēs Cariathiarim, dīcentēs&nbsp;:
+                        Redūxērunt Philisthiim arcam Dominī&nbsp;:
                         dēscendite, et reducite eam ad vōs.
                     </span>
                     <span class="ts-author">
@@ -6942,7 +7484,7 @@ Ps 68, 4
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin">
-                        Dicit eis :
+                        Dicit eis&nbsp;:
                         Mittite in dexteram nāvigiī rēte, et inveniētis.
                     </span>
                     <span class="ts-author">
@@ -7106,7 +7648,24 @@ Ps 68, 4
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
+            Bufonerías.
         </div>
+
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        Aut turpitûdô, aut stultiloquium, aut scurrîlitâs, quæ ad rem nôn pertinet.
+                    </span>
+                    <span class="ts-author">
+                        Eph&nbsp;5,&nbsp;4
+                    </span>
+                </li>
+            </ul>
+        </div>
+
 
     </section>
 
@@ -7220,8 +7779,10 @@ Ps 68, 4
         <!-- DEFINICIÓN ÚNICA-->
         <div class="ly-vc-h vc-single-definition">
             <span class="ts-latin">
-               Stăgnum, seu rêctius ac saepius stănnum ...  est metallî genus, quod in fodînîs invenîtur cum
-               argentô, et in fornace prîmum liquescit ...
+               Stăgnum, seu rêctius ac saepius stănnum&nbsp;...
+               est metallî genus,
+               quod in fodînîs invenîtur cum argentô,
+               et in fornace prîmum liquescit&nbsp;...
                Hisp. <span class="ts-latin-emph">estafio;</span>
 
             </span>
@@ -7320,7 +7881,27 @@ Ps 68, 4
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
+            Humildemente, con ademán de súplica.
         </div>
+
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        Et jacuî côram Dominô quadrâgintâ diêbus ac noctibus,
+                        quibus eum suppliciter dêprecâbar,
+                        nê dêlêret vôs ut fuerat comminâtus&nbsp;:
+                    </span>
+                    <span class="ts-author">
+                        Deut&nbsp;9,&nbsp;25
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+
 
     </section>
 
@@ -7678,6 +8259,23 @@ Ps 68, 4
             Alimentar (pāscor, edō)
         </div>
 
+        <!-- EN LA VULGATA SIXTO-CLEMENTINA -->
+        <div class="ly-vc-h vc-examples">
+            En la Vulgata sixto-clementina:
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin">
+                        Quis est homô quî plantâvit vîneam,
+                        et necdum fêcit eam esse commûnem,
+                        dê qua vêscî omnibus liceat?
+                    </span>
+                    <span class="ts-author">
+                        Deut&nbsp;29,&nbsp;6
+                    </span>
+                </li>
+            </ul>
+        </div>
+
     </section>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -7740,7 +8338,7 @@ Ps 68, 4
 
         <!-- INFO -->
         <div class="ly-vc-h ly-vc-w vc-info">
-            Estudiantes. Pupilos.
+            Estudiantes. Pupilos. Discípulos.
         </div>
 
     </section>
