@@ -37,7 +37,7 @@
     }
 
 
-    /* EB Garamond, regular, 400     */
+/* Anaktoria, regular, 400     */
 
     @font-face {
         font-family : "Anaktoria";
@@ -45,3 +45,35 @@
         font-weight : 400;
         font-style  : regular;
     }
+
+
+/* Cinzel regular, 400     */
+
+    @font-face {
+        font-family : "Anaktoria";
+        src         : url("../fonts/Cinzel-Regular.woff2") format("woff2");
+        font-weight : 400;
+        font-style  : regular;
+    }
+
+/* Cinzel medium, 500*/
+
+    @font-face {
+        font-family : "Cinzel";
+        src         : url("../fonts/Cinzel-Medium.woff2") format("woff2");
+        font-weight : 500;
+        font-style  : regular;
+    }
+
+
+/* Cinzel semibold, 600 */
+
+    @font-face {
+        font-family : "Cinzel";
+        src         : url("../fonts/Cinzel-SemiBold.woff2") format("woff2");
+        font-weight : 600;
+        font-style  : regular;
+    }
+
+
+
