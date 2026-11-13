@@ -25,7 +25,8 @@
 Cada bloque dentro de la página:
 
 
-    <div class="vc-containter">
+<main> class="vc-containter">
+
     <section class="ly-section-document">
 
         <hr> <!-- CARD -->        
@@ -169,6 +170,7 @@ Cada bloque dentro de la página:
 
     </section> <!-- class="ly-section-document" -->
 
+</main>
 */
 
     :root {
@@ -429,36 +431,6 @@ Cada bloque dentro de la página:
         margin-bottom       : .0rem;
         list-style-type     : decimal;
     }
-
-
-/* TEXTOS  - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
-    .vc-texts{
-        margin-top:    var(--vc-margin-top);
-        margin-bottom: var(--vc-margin-bottom);
-    }
-
-    .vc-texts::before{
-        content             :"En los textos: " ;
-        font-weight         : bold;
-        font-style          : italic;
-        color               : orange;
-    }
-
-
-    .vc-texts-ul {
-        margin-top         : .0rem;
-        margin-bottom      : .0rem;
-        list-style-type    : disc; /*circle, square, none */
-    }
-
-    .vc-texts-ol{
-        margin-top          : .0rem;
-        margin-bottom       : .0rem;
-        list-style-type     : decimal;
-    }
-
-
 
 /* TRANSLATIONS   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */    
 
